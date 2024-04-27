@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link
+      rel="shortcut icon"
+      href="Games & Stuff Logo (1).png"
+      type="image/png"
+    />
+                <title>Games & Stuff</title>
+                    <link rel="stylesheet" href="style.css">
+                        <link href='https://fonts.googleapis.com/css?family=Lato:wght@700' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+          <nav>
+                  <p id="time"></p>
+                  
+                        <div class="navitems" style="background-color: rgba(0, 0, 0, 0.17); border-radius: 15px">
+                                          <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 15px 0 0 15px;"><a href="/games">Games</a></div>
+                                          <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 0 15px 15px 0;"><a href="/apps">Apps</a></div>
+                                          <a href="/" class="mainNAVimage-container">
+                                            <img src="G&S nav.png" class="mainNAVimage">
+                                          </a>                                                                                                                 
+                                          <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 15px 0 0 15px;"><a href="/chat">Chat</a></div>
+                                          <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 0 15px 15px 0;"><a href="/settings">Settings</a></div>
+                        </div>
+                      </nav>
+    <style>
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .centered-text {
+    position: relative;
+    top: -100px; /* initial position */
+    opacity: 0; /* initially hidden */
+    transition: top 0.5s ease, opacity 0.5s ease; /* transition effect */
+  }
+
+  .centered-text.show {
+    top: 0; /* final position */
+    opacity: 1; /* show */
+  }
+</style>
+</head>
+<body>
+  <div class="centered-text">
+    <h1 style="text-align: center;">404: This Page Does Not Exist</h1>
+  </div>
+
+  <script>
+    // JavaScript to trigger animation when page is loaded
+    document.addEventListener('DOMContentLoaded', function() {
+      var textElement = document.querySelector('.centered-text');
+      // Add 'show' class to trigger animation
+      textElement.classList.add('show');
+    });
+  </script>
+</body>
+<script src="index.js"></script>
+</html>

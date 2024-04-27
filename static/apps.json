@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Movie Web",
+    "link": "https://big-black-monkey-fart.vercel.app",
+    "image": "/assets/icons/MovieWeb.png",
+    "description": "A small web app for watching movies and shows easily."
+  },
+  {
+    "name": "Drawing Canvas",
+    "link": "https://everyonedraw.com/10/-22909/300658",
+    "image": "/assets/icons/canvas.jpg",
+    "description": "This is the offical Games And Stuff drawing canvas. You can draw whatever you like, all in real-time so people can see what you're making. There are some rules though, which are, no drawing bad stuff and keep everything family freindly. Otherwize, have fun!"
+  },
+  {
+    "name": "Padlet",
+    "link": "https://padlet.com/GamesAndStuff/GamesAndStuff",
+    "image": "/assets/icons/Padlet.png",
+    "description": "Padlet is a digital canvas software that allows users to create boards to collect, organize, and present various types of content. This is also the official Games And Stuff Padlet, so be sure to share things about the site!"
+  },
+  {
+    "name": "Game Emulator",
+    "link": "https://demo.emulatorjs.org",
+    "image": "/assets/icons/logo.png",
+    "description": "EmulatorJS is a backend service that hosts its selection of emulators that may be embedded into your website. To use it, all you have to do is download a supported game rom of your choice, upload it, and run it by selecting the console that the game runs on."
+  }
+]

@@ -1,0 +1,79 @@
+body[theme="main"] {
+    --text-color: #ffffff;
+    --background: linear-gradient(to right, rgb(226, 31, 31), rgb(34, 51, 207));
+    --navbar: #e22e2e;
+    --accent: #ffffff;
+    --scrollbar-track: #2233CF;
+                    
+}
+body[theme="amoled"] {
+    --text-color: #ebebeb;
+    --background: #000000;
+    --navbar: #0f0f0f;
+    --accent: #ffffff;
+}
+body[theme="dark"] {
+    --text-color: #ffffff;
+    --background: #1a2023;
+    --navbar: #0e1213;
+    --accent: #ffffff;
+}
+body[theme="purple"] {
+    --text-color: #ffffff;
+    --background: linear-gradient(to right, rgb(128, 0, 128) , rgb(75, 0, 130));
+    --navbar: #0f0f0f;
+    --accent: #ffffff;
+    --scrollbar-track: #4B0082;
+}
+body[theme="green"] {
+    --text-color: #ffffff;
+    --background: #247339;
+    --navbar: #0f0f0f;
+    --accent: #123d1d;
+}
+body[theme="blue"] {
+    --text-color: #ffffff;
+    --background: #294f99;
+    --navbar: #0f0f0f;
+    --accent: ##0c2861;
+}
+body[theme="red"] {
+    --text-color: #ffffff;
+    --background: #a82e2a;
+    --navbar: #0f0f0f;
+    --accent: #540d0b;
+}
+body[theme="pink"] {
+    --text-color: #ffffff;
+    --background: #bd4fa5;
+    --navbar: #0f0f0f;
+    --accent: #630b50;
+}
+body[theme="orange"] {
+    --text-color: #ffffff;
+    --background: #bf7c30;
+    --navbar: #0f0f0f;
+    --accent: #75440c;
+}
+body[theme="just dont"] {
+    --text-color: #000000;
+    --background: #ffffff;
+    --navbar: #0f0f0f;
+    --accent: #000000;
+}
+body[theme="ape"] {
+    --text-color: #000000;
+    --background: url("/assets/icons/Ape.png");
+    --navbar: #0f0f0f;
+    --accent: #D2B48C;
+    background-size: 100% 100%;
+}
+body[theme="slope"] {
+    --text-color: #FFFFFF;
+    --background: url("https://garden.spoonflower.com/c/10840511/p/f/m/fUOkDCJT-YoQcuFmhqZDUBzsAnn1ZrxnXZ5WzA2xurWai2_meg6A0w0/Green_Grid_on_Black.jpg");
+    --navbar: #0f0f0f;
+    --accent: #FFFFFF;
+    --scrollbar-track: #000000;
+    background-size: 100% 100%;
+}
+

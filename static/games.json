@@ -1,0 +1,602 @@
+[
+  {
+    "name": "Breaking The Bank",
+    "link": "https://f.silvergames.com/ruffle/player.php?id=1303",
+    "image": "/assets/icons/HenryStickminBTB.png",
+    "description": "Breaking the Bank is a 2008 video game directed by Marcus Bromander. In the game, Henry Stickmin tries to break into a bank in the middle of the desert to steal its vault."
+  },
+  {
+    "name": "Idle Breakout",
+    "link": "https://html-classic.itch.zone/html/9150519/index.html",
+    "image": "/assets/icons/IdleBreakout.png",
+    "description": "Idle Breakout is a free, idle strategy game where players break bricks using a paddle and a bouncing ball."
+  },
+  {
+    "name": "FNAF 1",
+    "link": "https://run3.io/popgame/fnaf/fnaf1/",
+    "image": "/assets/icons/FNAF1.png",
+    "description": "Five Nights at Freddy's is a 2014 video game where the player takes on the role of Mike Schmidt, a security guard at Freddy Fazbear's Pizza. The player must survive five nights at the restaurant without being caught by the animatronics that roam the facility at night."
+  },
+  {
+    "name": "FNAF 2",
+    "link": "https://run3.io/popgame/fnaf/fnaf2.html",
+    "image": "/assets/icons/FNAF2.png",
+    "description": "Five Nights at Freddy's 2 is a point-and-click survival horror video game. You must survive five nights without being caught by the animatronic characters that roam the building."
+  },
+  {
+    "name": "FNAF 3",
+    "link": "https://run3.io/popgame/fnaf/fnaf3.html",
+    "image": "/assets/icons/FNAF3.png",
+    "description": "Five Nights at Freddy's 3 is a point-and-click survival horror video game released in 2015. In the game, the player takes on the role of a security guard at a haunted amusement park called Fazbear's Fright. The player's goal is to survive their shift without being killed by a homicidal animatronic."
+  },
+  {
+    "name": "FNAF 4",
+    "link": "https://run3.io/popgame/fnaf/fnaf4.html",
+    "image": "/assets/icons/FNAF4.png",
+    "description": "Five Nights at Freddy's 4 is a point-and-click survival horror game. In the game, you play as a child who must survive the night in a house full of terrors."
+  },
+  {
+    "name": "Duck Life 1",
+    "link": "https://www.hoodamath.com/mobile/games/duck-life/game.html",
+    "image": "/assets/icons/DuckLife1.png",
+    "description": "Duck Life 1 is a fun and addictive online game where you train a duck to compete in races and tournaments. In the game, you raise your duckling by training it in various skills such as running, flying, and swimming to prepare it for competitions."
+  },
+  {
+    "name": "Duck Life 2",
+    "link": "https://www.hoodamath.com/mobile/games/duck-life-2-world-champion/game.html",
+    "image": "/assets/icons/DuckLife2.png",
+    "description": "Duck Life 2 is an online game where players train a duck to compete in races and challenges. In the game, you must feed, train, and improve your duck's skills to make it a champion."
+  },
+  {
+    "name": "Duck Life 3",
+    "link": "https://www.hoodamath.com/mobile/games/duck-life-3-evolution/game.html",
+    "image": "/assets/icons/DuckLife3.png",
+    "description": "Duck Life 3 is a browser-based game where you play as a duck and compete in various sports and activities. The game features a variety of sports, including running, swimming, flying, and more."
+  },
+  {
+    "name": "Duck Life 4",
+    "link": "https://www.hoodamath.com/mobile/games/duck-life-4/game.html",
+    "image": "/assets/icons/DuckLife4.png",
+    "description": "In Duck Life 4, you start by creating your custom duck and then embark on a journey to become the ultimate Ducklympics champion. The game features various training mini-games that allow you to improve your duck's skills in different disciplines, such as running, swimming, flying, and more."
+  },
+  {
+    "name": "Duck Life 5",
+    "link": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fduck-life-5.xml",
+    "image": "/assets/icons/DuckLife5.png",
+    "description": "Duck Life 5 is a browser-based game where you train and compete with a team of ducks in various sports. It's the fifth installment in the Duck Life series, developed by Wix Games."
+  },
+  {
+    "name": "Duck Life 6",
+    "link": "https://www.hoodamath.com/mobile/games/duck-life-6-space/game.html",
+    "image": "/assets/icons/DuckLife6.png",
+    "description": "Duck Life 6 is a browser-based game where you play as a duck and compete in various sports and activities. It's the sixth installment in the popular Duck Life series, known for its fun and engaging gameplay."
+  },
+  {
+    "name": "Super Mario Bros",
+    "link": "https://supermario.ee/mario.html",
+    "image": "/assets/icons/SuperMarioBros.png",
+    "description": "Super Mario Bros. follows the adventures of Mario and his brother Luigi as they travel through the Mushroom Kingdom to rescue Princess Peach from Bowser."
+  },
+  {
+    "name": "Super Mario Bros 2",
+    "link": "https://kiz10.com/upload/games/htmlgames/super-mario-bros-2/index.html",
+    "image": "/assets/icons/SuperMarioBros2.jpg",
+    "description": "Super Mario Bros. 2 is the sequel to Super Mario Bros. and features Mario and Luigi as they travel through the Mushroom Kingdom to rescue Princess Peach from Bowser."
+  },
+  {
+    "name": "Super Mario Bros 3",
+    "link": "https://4gameground.com/nnes/?nsyst2=nes&nsyst=nes&fl=4_Super_Mario_Bro&rom=nes",
+    "image": "/assets/icons/SuperMarioBros3.png",
+    "description": "In Super Mario Bros. 3, players control Mario or Luigi as they travel through the Mushroom Kingdom to rescue Princess Peach from Bowser. The game features a variety of levels, including underwater stages, flying levels, and castle stages."
+  },
+  {
+    "name": "Super Mario 64",
+    "link": "https://downloads.retrostic.com/play.php?console_slug=n64&rom_url=https://downloads.retrostic.com/roms/Super%20Mario%2064%20%28U%29%20%5B%21%5D.zip",
+    "image": "/assets/icons/SuperMario64.png",
+    "description": "In Super Mario 64, players control Mario as he explores Princess Peach's castle and the surrounding areas. The game features a large, open-world environment that players can explore freely."
+  },
+  {
+    "name": "Escaping The Prison",
+    "link": "https://f.silvergames.com/ruffle/player.php?id=1302",
+    "image": "/assets/icons/HenryStickminETP.png",
+    "description": "Escaping the Prison is a text-based adventure game where you play as a prisoner trying to escape from a high-security prison."
+  },
+  {
+    "name": "Stealing The Diamond",
+    "link": "https://f.silvergames.com/ruffle/player.php?id=1301",
+    "image": "/assets/icons/HenryStickminSTD.png",
+    "description": "The stealing the diamond game is a classic puzzle game where the objective is to steal a diamond from a heavily guarded museum. The game typically involves a series of challenges and obstacles that the player must overcome in order to reach the diamond and escape undetected."
+  },
+  {
+    "name": "Infiltrating The Airship",
+    "link": "https://f.silvergames.com/ruffle/player.php?id=3011",
+    "image": "/assets/icons/HenryStickminITA.png",
+    "description": "Infiltrating the Airship is a text-based adventure game where players take on the role of a spy tasked with infiltrating an airship and retrieving valuable information."
+  },
+  {
+    "name": "Fleeing The Complex",
+    "link": "https://f.silvergames.com/ruffle/player.php?id=5195",
+    "image": "/assets/icons/HenryStickminFTC.png",
+    "description": "Fleeing the Complex is a popular online game developed by PuffballsUnited. It is the fifth installment in the Henry Stickmin series. The game follows the story of Henry Stickmin, a stick figure who is trying to escape from a high-security complex."
+  },
+  {
+    "name": "Run 3",
+    "link": "https://unblocked1889.github.io/R033/tn6pS9dCf37xAhkJv/",
+    "image": "/assets/icons/Run3.png",
+    "description": "Run 3 is a popular endless running game where players control a character running through a tunnel in space. The game features various levels with increasing difficulty, requiring players to navigate through obstacles and gaps by jumping, floating, and avoiding falling off the edges."
+  },
+  {
+    "name": "OvO",
+    "link": "https://75jfh73gd9hla64g-opensocial.googleusercontent.com/gadgets/ifr?url=https://googleusercontent.b-cdn.net/ovo/ovo.xml&container=ig",
+    "image": "/assets/icons/OvO.png",
+    "description": "OvO is a fast paced skill based platforming game focused on maneuvering around the levels as fast as possible."
+  },
+  {
+    "name": "Wrestle Bros",
+    "link": "https://wrestlebros.io/",
+    "image": "/assets/icons/WrestleBros.png",
+    "description": "Wrestle Bros is a browser-based professional wrestling game made by Blue Wizard. The players get to control colorful characters in intense wrestling battles."
+  },
+  {
+    "name": "Basket Bros",
+    "link": "https://basketbros.io",
+    "image": "/assets/icons/BasketBros.png",
+    "description": "Basket Bros is an online multiplayer basketball game where players compete against each other in fast-paced matches. The game features simple controls and vibrant graphics, making it easy to pick up and play."
+  },
+  {
+    "name": "Monkey Mart",
+    "link": "https://slope-game.github.io/newgame/monkey-mart/",
+    "image": "/assets/icons/MonkeyMart.png",
+    "description": "Monkey Mart is a fun and addictive online game where players manage a monkey-run convenience store. The goal is to serve customers quickly and efficiently while expanding and upgrading the store to increase profits."
+  },
+  {
+    "name": "Subway Surfers",
+    "link": "https://html5.gamemonetize.co/4i34j6xes2vdim7k55nky9w8s7wp1m75/",
+    "image": "/assets/icons/SubwaySurfers.png",
+    "description": "Subway Surfers is an endless runner mobile game. The aim of the game is to outrun a train inspector while dodging oncoming trains, barriers and other objects."
+  },
+  {
+    "name": "Slope",
+    "link": "https://slope-game.github.io/rungame/slope/",
+    "image": "/assets/icons/Slope.png",
+    "description": "Slope is a 3D space run game where you control a ball rolling down a slope. The game's goal is to keep the ball straight, avoid obstacles, and boost speed while trying to break your record."
+  },
+  {
+    "name": "Bitlife",
+    "link": "https://bitlifeonline.github.io/class/index.html",
+    "image": "/assets/icons/Bitlife.png",
+    "description": "BitLife is a single player life simulation game in which users make decisions based on a series of multiple choice questions presented to them as they get older (within the game)."
+  },
+  { 
+    "name": "Friday Night Funkin'",
+    "link": "https://static.playunblocked.com/2021/04/friday-night-funkin/",
+    "image": "/assets/icons/FNF.png",
+    "description": "Friday Night Funkin' is a rhythm game where you play as a character trying to impress your girlfriend's family with your rap skills. The game features catchy music, challenging levels, and colorful graphics."
+  },
+  {
+    "name": "JustFall.lol",
+    "link": "https://justfall.lol/",
+    "image": "/assets/icons/JustFallLOL.png",
+    "description": "JustFall.lol is a multiplayer physics-based game where players compete to be the last one standing on a platform that gradually falls away. The game offers fast-paced gameplay and various power-ups to keep the action exciting."
+  },
+  {
+    "name": "1v1.lol",
+    "link": "https://1v1.lol/",
+    "image": "/assets/icons/1v1LOL.png",
+    "description": "1v1.lol is a fast-paced multiplayer shooting game where players face off in intense one-on-one battles. The game offers a variety of weapons and building mechanics, allowing for strategic gameplay and skillful combat."
+  },
+  {
+    "name": "Backrooms",
+    "link": "https://kdata1.com/2022/05/backroom16/",
+    "image": "/assets/icons/Backrooms.png",
+    "description": "Backrooms is a horror exploration game inspired by the internet urban legend. Players navigate through procedurally generated levels of empty, maze-like rooms while avoiding mysterious entities that lurk in the darkness."
+  },
+  {
+    "name": "Cookie Clicker",
+    "link": "https://webglmath.github.io/cookie-clicker/",
+    "image": "/assets/icons/CookieClicker.png",
+    "description": "Cookie Clicker is an incremental game where players aim to produce as many cookies as possible by clicking on a large cookie icon. As players accumulate cookies, they can spend them to purchase upgrades and unlock new features."
+  },
+  {
+    "name": "Tiny Fishing",
+    "link": "https://www.dob5.com/d/file/games/tiny-fishing/",
+    "image": "/assets/icons/TinyFishing.png",
+    "description": "Tiny Fishing is a charming fishing game where players cast their lines and try to catch various fish species. The game features simple controls and relaxing gameplay, making it perfect for casual gaming sessions."
+  },
+  {
+    "name": "Minecraft",
+    "link": "https://sd592g.github.io/zj684od4lfg/",
+    "image": "/assets/icons/Minecraft.png",
+    "description": "Minecraft is a sandbox game where players can build and explore virtual worlds made up of blocks. The game offers endless possibilities for creativity and adventure, allowing players to mine resources, craft items, and survive in diverse environments."
+  },
+  {
+    "name": "Baldi's Basics",
+    "link": "https://baldis-basics.github.io/file/",
+    "image": "/assets/icons/BaldisBasics.png",
+    "description": "Baldi's Basics is a surreal and humorous horror game set in a spooky school. Players must solve math problems and collect items while avoiding the sinister Baldi, who gets increasingly aggressive as the game progresses."
+  },
+  {
+    "name": "Dino Game",
+    "link": "https://offline-dino-game.firebaseapp.com/",
+    "image": "/assets/icons/DinoGame.png",
+    "description": "Dino Game, also known as Chrome Dinosaur Game, is an endless runner game that appears in Google Chrome browser when there's no internet connection. Players control a dinosaur and must jump over obstacles to avoid extinction."
+  },
+  {
+    "name": "Flappy Bird",
+    "link": "https://flappy-bird.io/flappy-bird.embed",
+    "image": "/assets/icons/FlappyBird.png",
+    "description": "Flappy Bird is a simple yet addictive side-scrolling game where players control a bird and navigate it through a series of pipes. The game's minimalistic graphics and challenging gameplay have made it a classic in the world of mobile gaming."
+  },
+  {
+    "name": "Crossy Road",
+    "link": "https://kazwire.com/game/static/crossy-road/index.html",
+    "image": "/assets/icons/CrossyRoad.png",
+    "description": "Crossy Road is a casual arcade game where players guide a character through traffic, rivers, and other obstacles. The game's voxel art style and quirky characters add to its charm, providing endless entertainment for players of all ages."
+  },
+  {
+    "name": "Drive Mad",
+    "link": "https://g.vseigru.net/10/igra-dzhipy-bezumnoe-vozhdenie/",
+    "image": "/assets/icons/DriveMad.png",
+    "description": "Drive Mad is an adrenaline-fueled racing game where players compete in intense off-road races. The game features realistic physics and dynamic environments, offering a thrilling experience for racing enthusiasts."
+  },
+  {
+    "name": "Powerline.io",
+    "link": "https://powerline.io/",
+    "image": "/assets/icons/Powerlineio.png",
+    "description": "Powerline.io is a multiplayer snake game where players compete to become the longest snake on the playing field. The game offers fast-paced action and strategic gameplay as players navigate the arena and consume pellets to grow their snakes."
+  },
+  {
+    "name": "Paper.io",
+    "link": "https://paper-io.com/",
+    "image": "/assets/icons/Paperio.png",
+    "description": "Paper.io is a multiplayer territory-capturing game where players compete to claim the largest area on the map. The game combines strategy and quick reflexes as players navigate the playing field and try to outsmart their opponents."
+  },
+  {
+    "name": "Krunker.io",
+    "link": "https://krunker.io/",
+    "image": "/assets/icons/Krunkerio.png",
+    "description": "Krunker.io is a fast-paced first-person shooter game set in a blocky, pixelated world. Players can choose from a variety of weapons and game modes as they battle against other players in action-packed matches."
+  },
+  {
+    "name": "Hole.io",
+    "link": "https://hole-io.com/",
+    "image": "/assets/icons/Holeio.png",
+    "description": "Hole.io is a multiplayer arcade game where players control a black hole and compete to swallow objects and other players to grow larger. The game offers chaotic fun as players navigate the city and devour everything in their path."
+  },
+  {
+    "name": "Shell Shockers",
+    "link": "https://shellshock.io/",
+    "image": "/assets/icons/ShellShockers.png",
+    "description": "Shell Shockers is a multiplayer first-person shooter game where players control eggs armed with weapons and battle against each other in fast-paced matches. The game features egg-themed characters and environments, adding a humorous twist to the genre."
+  },
+  {
+    "name": "Sonic The Hedgehog",
+    "link": "https://megadrive-emulator.com/game/?game=Sonic_the_Hedgehog.bin",
+    "image": "/assets/icons/SonicTheHedgehog.png",
+    "description": "Sonic The Hedgehog is a classic platformer game where players control Sonic as he speeds through levels, collects rings, and defeats enemies. The game's fast-paced gameplay and iconic characters have made it a beloved favorite among gamers."
+  },
+  {
+    "name": "Sonic The Hedgehog 2",
+    "link": "https://megadrive-emulator.com/game/?game=Sonic_the_Hedgehog_2_JUE.bin",
+    "image": "/assets/icons/SonicTheHedgehog2.png",
+    "description": "Sonic The Hedgehog 2 is the sequel to the original Sonic game, featuring Sonic and his sidekick Tails as they battle against the evil Dr. Robotnik. The game introduces new levels, power-ups, and gameplay mechanics, expanding on the success of the first game."
+  },
+  {
+    "name": "Tunnel Rush",
+    "link": "https://webglmath.github.io/tunnel-rush/",
+    "image": "/assets/icons/TunnelRush.png",
+    "description": "Tunnel Rush is a fast-paced reflex game where players navigate through a neon-colored tunnel filled with obstacles. The game's sleek visuals and pulse-pounding soundtrack create an immersive experience as players strive to survive for as long as possible."
+  },
+  {
+    "name": "Clicker Heroes",
+    "link": "https://www.gameslol.net/data/clicker-heroes/index.html",
+    "image": "/assets/icons/ClickerHeroes.png",
+    "description": "Clicker Heroes is an idle RPG game where players defeat monsters by clicking or tapping on them. The game features a wide variety of heroes, upgrades, and abilities to unlock as players progress through endless levels of monster-slaying action."
+  },
+  {
+    "name": "Retro Bowl",
+    "link": "https://retrobowlmod.com/retro-bowl.embed",
+    "image": "/assets/icons/RetroBowl.png",
+    "description": "Retro Bowl is a retro-style American football game where players manage their own team and compete in thrilling matches. The game features simple controls, pixel art graphics, and addictive gameplay that captures the essence of classic football games."
+  },
+  {
+    "name": "Sigmally (Agar.Io)",
+    "link": "https://sigmally.com",
+    "image": "/assets/icons/AgarIo.png",
+    "description": "Sigmally, formerly known as Agar.io, is a multiplayer action game where players control cells and compete to become the largest on the playing field. The game offers simple mechanics and addictive gameplay, making it a popular choice for casual gaming sessions."
+  },
+  {
+    "name": "Osw!",
+    "link": "https://joshua-usi.github.io/osw",
+    "image": "/assets/icons/osw.png",
+    "description": "Osw!, similar to Osu!, rings the addictive rhythm gameplay of Osu! to your web browser. Tap, slide, and spin along to the beat of your favorite songs as they play in the background."
+  },
+  {
+    "name": "ADOFAI",
+    "link": "https://static.playunblocked.com/2019/10/a-dance-of-fire-and-ice/",
+    "image": "/assets/icons/ADOFAI.png",
+    "description": "ADOFAI, short for A Dance of Fire and Ice, is a rhythm-based game where players must keep a steady beat to progress through levels. The game features minimalist graphics and captivating music, offering a unique and immersive gaming experience."
+  },
+  {
+    "name": "Nut Simulator",
+    "link": "https://nutsimulator.github.io/index.html",
+    "image": "/assets/icons/NutSimulator.png",
+    "description": "Nut Simulator is a quirky clicker game where players earn nuts by clicking nuts and upgrade to get even more nuts. The game offers charming visuals, humorous gameplay, and a relaxing atmosphere, making it a delightful choice for casual gaming."
+  },
+  {
+    "name": "Riddle School",
+    "link": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Friddle-school.xml&container=ig",
+    "image": "/assets/icons/RiddleS.png",
+    "description": "In Riddle School, you play as Phil and must use your intelligence and wit to escape the school. You can interact with objects in the classrooms and hallways, try to confuse teachers, and leave the school."
+  },
+  {
+    "name": "Riddle School 2",
+    "link": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Friddle-school-2.xml&container=ig",
+    "image": "/assets/icons/RiddleS2.png",
+    "description": "Riddle School 2 is a point-click game developed by JonBro. In the game, you play as Phil, a character who is trying to escape a school full of puzzles, mysteries, and humor."
+  },
+  {
+    "name": "Riddle School 3",
+    "link": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Friddle-school-3.xml&container=ig",
+    "image": "/assets/icons/RiddleS3.png",
+    "description": "Riddle School 3 is a short, point-and-click, graphic adventure game. In the game, you play as Phil Eggtree, a student who is trying to escape school."
+  },
+  {
+    "name": "Riddle School 4",
+    "link": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Friddle-school-4.xml&container=ig",
+    "image": "/assets/icons/RiddleS4.png",
+    "description": "Riddle School 4 is a free, online, point-and-click, escape room puzzle game. In the game, you play as Phil Eggtree, a student who is trying to escape Riddle University."
+  },
+  {
+    "name": "Riddle School 5",
+    "link": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Friddle-school-5.xml&container=ig",
+    "image": "/assets/icons/RiddleS5.png",
+    "description": "Riddle School 5 is a point-and-click escape puzzle game where you play as Phil Eggtree. In this game, you must find an exit from a spaceship, not a school. You must use objects in the area to stop a group of aliens from threatening Earth."
+  },
+  {
+    "name": "Riddle Transfer",
+    "link": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Friddle-transfer.xml&container=ig",
+    "image": "/assets/icons/RiddleT.png",
+    "description": "In Riddle Transfer, you and your four alien friends are imprisoned by humans after an adventure in space. The game begins after finishing Riddle School 5."
+  },
+  {
+    "name": "Riddle Transfer 2",
+    "link": "https://flashstorage.games/embed/riddle-transfer-2?emulator=ruffle&game=%7B%22id%22%3A15487%2C%22name%22%3A%22Riddle+Transfer+2%22%2C%22slug%22%3A%22riddle-transfer-2%22%2C%22file%22%3A%22%5B%7B%5C%22download_link%5C%22%3A%5C%22games%5C%2FFLASHJanuary2022%5C%2Friddle-transfer-2.swf%5C%22%2C%5C%22original_name%5C%22%3A%5C%22riddle-transfer-2.swf%5C%22%7D%5D%22%2C%22alt_file%22%3A%22https%3A%5C%2F%5C%2Fflashstorage.games%22%2C%22alt_game%22%3Anull%2C%22width%22%3A800%2C%22height%22%3A600%2C%22origin%22%3Anull%2C%22extension%22%3A%22SWF%22%2C%22flashversion%22%3Anull%2C%22image%22%3A%22games%5C%2FIMGJanuary2022%5C%2Friddle-transfer-2.jpg%22%2C%22playable%22%3A1%2C%22resizable%22%3A1%2C%22updatedAt%22%3Anull%2C%22avm%22%3A1%2C%22flashvars%22%3Anull%2C%22emulator%22%3A%22ruffle%22%2C%22orientation%22%3A%22landscape%22%2C%22embed_options%22%3A%22%7B%5C%22wmode%5C%22%3A%5C%22opaque%5C%22%2C+%5C%22allowNetworking%5C%22%3A+%5C%22internal%5C%22%2C+%5C%22allowScriptAccess%5C%22%3A+%5C%22No%5C%22%7D%22%2C%22name_mvkb%22%3Anull%2C%22style_mvkb%22%3Anull%2C%22left_mvkb%22%3A%22%5B%5D%22%2C%22right_mvkb%22%3A%22%5B%5D%22%2C%22category_slug%22%3A%22puzzle%22%2C%22updated_at%22%3Anull%2C%22star_user%22%3A1%7D",
+    "image": "/assets/icons/RiddleT2.png",
+    "description": "Riddle Transfer 2 is a point-and-click adventure game where you solve puzzles and search for hints. The game starts with a cutscene where the main characters are being chased by guards in the sewers."
+  },
+  {
+    "name": "Doge Miner",
+    "link": "https://dogeminer.se",
+    "image": "/assets/icons/DogeMiner.png",
+    "description": "The Doge Miner game is a text-based, browser game where players take on the role of a miner digging for Dogecoin, a cryptocurrency inspired by the popular Doge meme. The game features simple gameplay mechanics and a retro-style interface reminiscent of classic arcade games."
+  },
+  {
+    "name": "Doge Miner 2",
+    "link": "https://dogeminer2.com",
+    "image": "/assets/icons/DogeMiner2.png",
+    "description": "Dogeminer 2 is a clicker space adventure. You start as are a poor, but happy shibe. To go to The Moon™, you must mine for dogecoin. Get amazing helpers to mine for you & give them crazy upgrades with your dogecoins."
+  },
+  {
+    "name": "Pou",
+    "link": "https://ubg98.github.io/Pou",
+    "image": "/assets/icons/Pou.png",
+    "description": "Pou is a virtual pet game created by Paul Salameh and launched in 2012. The objective of the game is to take care of a small, blob-like creature named Pou by feeding, cleaning, and playing with it. Players can customize their Pou's appearance with a variety of accessories and clothing items."
+  },
+  {
+    "name": "Slow Roads",
+    "link": "https://slowroads.io",
+    "image": "/assets/icons/SlowRoads.png",
+    "description": "Slow Roads is a casual, procedurally-generated driving game which lets you disconnect from life for a while and run endlessly toward the distant horizon. Set the scenery to suit your mood, throw on some music, and just drive."
+  },
+  {
+    "name": "Neal.fun",
+    "link": "https://neal.fun",
+    "image": "/assets/icons/NealFun.png",
+    "description": " Neal Fun is a website that offers a variety of free online games, including puzzles, strategy games, and action games. The games are simple to play and can be enjoyed by people of all ages."
+  },
+  {
+    "name": "VEX",
+    "link": "https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fvex.xml&container=ig",
+    "image": "/assets/icons/VEX.png",
+    "description": "Vex 1 is a fast-paced, ragdoll-style platformer game where the player controls a stick figure character. The objective is to navigate through a series of challenging levels filled with obstacles, spikes, and other hazards by jumping, climbing, and dodging to reach the end."
+  },
+  {
+    "name": "VEX 2",
+    "link": "https://f.kbhgames.com/RS/game.php?r=//f.kbhgames.com/2018/swf/vex2.swf&w=640&h=560&warnsupport=true",
+    "image": "/assets/icons/VEX2.png",
+    "description": "Vex 2 is an online platform game where players control a stickman character and navigate through a series of challenging levels filled with obstacles, traps, and puzzles. The objective is to reach the end of each level as quickly as possible while avoiding various hazards."
+  },
+  {
+    "name": "VEX 3",
+    "link": "https://vex-3.fbrq.io/vex-3/index.html",
+    "image": "/assets/icons/VEX3.png",
+    "description": "Vex 3 is a fast-paced and challenging platformer game where players must guide the character Vex through various levels filled with obstacles and traps."
+  },
+  {
+    "name": "VEX 4",
+    "link": "https://htmlxm.github.io/h9/vex-4/",
+    "image": "/assets/icons/VEX4.png",
+    "description": "Vex 4 is a challenging and engaging stick platformer game where players must navigate through various obstacles, puzzles, and environments. The game features precise controls and challenging levels that test players' platforming skills."
+  },
+  {
+    "name": "VEX 5",
+    "link": "https://vex5.vercel.app/",
+    "image": "/assets/icons/VEX5.png",
+    "description": "Vex 5 is the fifth installment in the popular Vex series of online platform games. The game challenges players to navigate through a series of obstacle courses filled with deadly traps and devices, requiring them to use precision and quick reflexes to successfully complete each level."
+  },
+  {
+    "name": "VEX 6",
+    "link": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://882300221708216345-489941489768578779.preview.editmysite.com/uploads/b/139890129-360170156295738788/files/vx6.xml&container=ig",
+    "image": "/assets/icons/VEX6.png",
+    "description": "Vex 6 is the sixth installment in the popular Vex series of online platform games. The game challenges players to navigate through a series of treacherous obstacles, including cannons, spinning spikes, and razors, in order to reach the end of each level. The game features new and challenging features that test the player's agility and perseverance."
+  },
+  {
+    "name": "VEX 7",
+    "link": "https://vex-7.github.io/file/",
+    "image": "/assets/icons/VEX7.png",
+    "description": "Vex 7 is the latest installment in the popular Vex series of dynamic platformer games. The game challenges players to navigate through a labyrinth of deadly obstacles, traps, and challenges using parkour moves and quick reflexes to make it to the end. The game features new tools, tricks, and traps for players to overcome."
+  },
+  {
+    "name": "VEX 8",
+    "link": "https://html5.gamedistribution.com/rvvASMiM/949009d40a2846f89f887de2285d6c28/index.html?gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2h0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tLzk0OTAwOWQ0MGEyODQ2Zjg5Zjg4N2RlMjI4NWQ2YzI4LyIsInBhcmVudERvbWFpbiI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidG9wRG9tYWluIjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xNyJ9",
+    "image": "/assets/icons/VEX8.png",
+    "description": "Vex 8 is a challenging platform game where players must navigate their stickman character through a series of tricky obstacle courses. The objective is to reach the finish line as quickly as possible while overcoming a variety of hazards and environmental challenges."
+  },
+  {
+    "name": "Drift Boss",
+    "link": "https://www.hoodamath.com/mobile/games/drift-boss/game.html?nocheckorient=1",
+    "image": "/assets/icons/DriftBoss.png",
+    "description": "Drift Boss is an online drifting game where players control a car and navigate it through a series of twists and turns on a road, trying to drift as far as possible without falling off the platform. The objective is to collect coins and achieve the highest score."
+  },
+  {
+    "name": "Zombs Royale",
+    "link": "https://zombsroyale.io/",
+    "image": "/assets/icons/ZombsRoyale.png",
+    "description": "Zombs Royale is a 2D battle royale video game developed by End Game, an American studio. It was released in 2018 for iOS, Android, and web browsers. The game features a 100-player battleground where players fight to be the last one standing."
+  },
+  {
+    "name": "Digdig.io",
+    "link": "https://digdig.io",
+    "image": "/assets/icons/Digdigio.png",
+    "description": "Digdig.io is an online multiplayer game where players control a digger character and compete to collect resources, destroy opponents, and become the largest digger on the map. The game features a simple but addictive gameplay loop of digging, expanding, and fighting other players."
+  },
+  {
+    "name": "Florr.io",
+    "link": "https://florr.io",
+    "image": "/assets/icons/Florrio.png",
+    "description": "Florr.io is a multiplayer online game where players control a flower and compete against other players to collect rare petals, defeat enemies, and expand their garden. The objective is to become the largest and most dominant flower on the server."
+  },
+  {
+    "name": "Flappy Plane",
+    "link": "https://html-classic.itch.zone/html/7665919/index.html",
+    "image": "/assets/icons/FlappyPlane.png",
+    "description": "In Flappy Plane, dodge obstacles as you navigate your plane through a maze of towering structures. Stay focused and keep flying to beat your high score! WARNING: This is just a joke and is not supposed to be taken seriously by anyone."
+  },
+  {
+    "name": "SMB Versus",
+    "link": "https://mr-funkinguy.github.io/gfile/mariovsluigi/index.html",
+    "image": "/assets/icons/SMBversus.png",
+    "description": "This is a fan-made remake of the multiplayer mode from New Super Mario Bros. (DS). It allows up to 10 players to compete online or locally, featuring new power-ups and levels."
+  },
+  {
+    "name": "Moto X3M",
+    "link": "https://webglmath.github.io/moto-x3m/",
+    "image": "/assets/icons/MotoX3M.png",
+    "description": "Moto X3M sets the standard for high-octane motorcycle racing. With its smooth controls and challenging levels, players navigate through a variety of landscapes while performing gravity-defying stunts."
+  },
+  {
+    "name": "Moto X3M Winter",
+    "link": "https://motox3monline.github.io/g/moto-x3m-winter/",
+    "image": "/assets/icons/MotoX3MW.png",
+    "description": "Embrace the chill with Moto X3M Winter! This edition takes the race to frosty landscapes, where slippery ice and deep snow add an extra layer of challenge. Brace yourself for icy ramps and frozen obstacles as you race to victory."
+  },
+  {
+    "name": "Moto X3M Pool Party",
+    "link": "https://motox3monline.github.io/g/moto-x3m-pool-party/",
+    "image": "/assets/icons/MotoX3MPP.png",
+    "description": "Dive into summer fun with Moto X3M Pool Party! This refreshing installment introduces water-themed levels, complete with pools, slides, and other aquatic obstacles. Ride your way through splashes and waves to become the ultimate poolside racer."
+  },
+  {
+    "name": "Moto X3M Spooky Land",
+    "link": "https://motox3monline.github.io/g/moto-x3m-spooky-land/",
+    "image": "/assets/icons/MotoX3MSL.png",
+    "description": "Prepare for a thrilling Halloween adventure in Moto X3M Spooky Land! This haunting installment features eerie landscapes and spine-chilling obstacles. Race through haunted houses and ghostly graveyards as you try to outrun the frights and reach the finish line."
+  },
+  {
+    "name": "Papa's Pizzeria",
+    "link": "https://papas-pizzeria.game-files.crazygames.com/ruffle/papas-pizzeria/1/papaspizzeria_v2.html?v=1.279",
+    "image": "/assets/icons/PapasPizzeria.png",
+    "description": "Papa’s Pizzeria is a popular online game in the Papa Louie restaurant management game series. In this game, you play as Roy, Papa Louie’s nephew, and take control of the pizzeria while Papa Louie is away. Your tasks include taking customers’ orders, assembling pizzas, and baking them to perfection."
+  },
+  {
+    "name": "Papa's Burgeria",
+    "link": "https://w8.snokido.com/games/flash/papaseries/burgeria.html",
+    "image": "/assets/icons/PapasBurgeria.png",
+    "description": "Papa’s Burgeria is a cooking and time-management game developed by Flipline Studios. It is part of the Papa Louie series, which includes various other restaurant-themed games. In this game, players take orders, grill patties, add toppings, and serve burgers to customers. The objective is to manage time efficiently, satisfy customers, and earn money to upgrade the restaurant."
+  },
+  {
+    "name": "Papa's Freezeria",
+    "link": "https://en.gameslol.net/data/awayjs/papa/freezeria.html",
+    "image": "/assets/icons/PapasFreezeria.png",
+    "description": "Papa’s Freezeria is a time management and restaurant simulation game developed by Flipline Studios. In this game, you manage an ice cream shop on Calypso Island, creating customized sundaes for customers while handling multiple tasks simultaneously. The objective is to serve customers efficiently to earn tips and improve the shop."
+  },
+  {
+    "name": "Papa's Taco Mia!",
+    "link": "https://w8.snokido.com/games/flash/papaseries/tacomia.html",
+    "image": "/assets/icons/PapasTacoMia.png",
+    "description": "Papa’s Taco Mia! is a time-management and cooking simulation game developed by Flipline Studios. In this game, players run their own taco restaurant, crafting, building, and serving a wide variety of tacos to hungry customers."
+  },
+  {
+    "name": "Papa's Pancakeria",
+    "link": "https://www.gameslol.net/data/waflash/index.php?g=1729",
+    "image": "/assets/icons/PapasPancakeria.png",
+    "description": "In Papa’s Pancakeria, you take orders, pour the batter, flip the pancakes, and serve the flapjacks hot and ready to hungry customers. You can also play minigames and upgrade the shop as you progress."
+  },
+  {
+    "name": "Papa's Wingeria",
+    "link": "https://www.gameslol.net/data/waflash/index.php?g=1730",
+    "image": "/assets/icons/PapasWingeria.png",
+    "description": "In this game, players assume the role of a wing restaurant chef working at Papa’s Wingeria in Starlight City. The objective is to take customer orders, fry crispy chicken wings to perfection, toss them in a variety of flavorful sauces, and serve them alongside delectable side dishes."
+  },
+  {
+    "name": "Papa's Hot Doggeria",
+    "link": "https://www.gameslol.net/data/waflash/index.php?g=1731",
+    "image": "/assets/icons/PapasHotDoggeria.png",
+    "description": "Papa’s Hot Doggeria is a restaurant time-management game developed by Flipline Studios. It is the seventh game in the Papa Louie series and was first released on November 19, 2012. The game takes place at Griller Stadium in Tastyville, where players serve hot dogs to spectators at a baseball game."
+  },
+  {
+    "name": "Papa's Cupcakeria",
+    "link": "https://www.gameslol.net/data/waflash/index.php?g=109",
+    "image": "/assets/icons/PapasCupcakeria.png",
+    "description": "Papa’s Cupcakeria is a time-management and cooking game developed by Flipline Studios. In this game, you play the role of a waiter in a cupcake shop, taking orders, baking cupcakes, and adding toppings to satisfy your customers. The game was launched in 2013 and has since become popular among fans of the Papa Louie series."
+  },
+  {
+    "name": "Papa's Pastaria",
+    "link": "https://en.gameslol.net/data/ruffle/ruffle.php?g=819",
+    "image": "/assets/icons/PapasPastaria.png",
+    "description": "Papa’s Pastaria is a time-management cooking game developed by Flipline Studios. It is the ninth game in the Papa Louie restaurant series. In this game, players manage an Italian restaurant in the town of Portallini."
+  },
+  {
+    "name": "Papa's Cheeseria",
+    "link": "https://w8.snokido.com/games/flash/papaseries/cheeseria.html",
+    "image": "/assets/icons/PapasCheeseria.png",
+    "description": "In the game, players manage a sandwich shop, grilling sandwiches, melting cheese, and serving customers to earn points and unlock upgrades. The game features various specials, each with unique bonuses and prizes. Players can also purchase upgrades to improve their efficiency and earn more points."
+  },
+  {
+    "name": "Papa's Bakeria",
+    "link": "https://f.silvergames.com/emu/waffle/?id=5458",
+    "image": "/assets/icons/PapasBakeria.png",
+    "description": "Papa’s Bakeria is the twelfth game in the Papa Louie restaurant time-management game series developed by Flipline Studios. The game takes place inside Whiskview Mall, with the workers being Timm and Cecilia. In this game, you bake various pies for customers and manage the bakery."
+  },
+  {
+    "name": "Papa's Sushiria",
+    "link": "https://f.silvergames.com/emu/waffle/?id=5853",
+    "image": "/assets/icons/PapasSushiria.png",
+    "description": "Papa’s Sushiria is a time-management restaurant game developed by Flipline Studios. It is the thirteenth game in the Papa Louie series and was released on November 29, 2023. In this game, players take on the role of a sushi chef in Sakura Bay, preparing sushi rolls and bubble tea for customers."
+  },
+  {
+    "name": "Papa's Scooperia",
+    "link": "https://f.silvergames.com/ruffle/player.php?id=5000",
+    "image": "/assets/icons/PapasScooperia.png",
+    "description": "Papa’s Scooperia is a casual restaurant management game developed by Flipline Studios. In this game, you embark on a journey to run your ice cream shop and bring joy to customers of all ages."
+  },
+  {
+    "name": "Jetpack Joyride",
+    "link": "https://unbl0ck.github.io/games/jetpackjoyride/index.html",
+    "image": "/assets/icons/JetpackJoyride.png",
+    "description": "Jetpack Joyride is an addictive endless runner game where players control Barry Steakfries, who breaks into a secret laboratory to steal experimental jetpacks. Dodging obstacles and collecting coins, players navigate through various levels filled with challenges. With vibrant graphics, power-ups, and quirky characters, it's a thrilling adventure that keeps players coming back for more."
+  },
+  {
+    "name": "Opposite Day",
+    "link": "https://www.hoodamath.com/mobile/games/opposite-day/game.html?nocheckorient=1",
+    "image": "/assets/icons/OppositeDay.png",
+    "description": "Opposite Day is a delightful online puzzle-adventure game where players step into a world turned on its head! Everything you know is flipped, from gravity to logic, as you navigate through mind-bending challenges. With vibrant visuals and clever level design, embrace the absurdity and reverse your thinking to conquer each perplexing puzzle."
+  },
+  {
+    "name": "Ant Art Tycoon",
+    "link": "https://antarttycoon.github.io/game/index.html",
+    "image": "/assets/icons/AntArtTycoon.png",
+    "description": "Ant Art Tycoon is an idle game created by Wix Games. You are the manager of a colony of artist ants and your job is to decide how much each painting should sell for. Earn money by adjusting the price tag for each of your ant art pieces to maximize your earnings from potential buyers."
+  }
+]
