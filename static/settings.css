@@ -196,6 +196,7 @@ button:hover {
     text-align: center;
     cursor: pointer;
     font-family: 'Lato', sans-serif;
+    border-radius: 10px;
 }
 
 /* Remove default dropdown arrow */

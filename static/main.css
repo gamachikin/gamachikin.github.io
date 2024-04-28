@@ -241,10 +241,11 @@ input[type=text] {
       position: fixed;
       bottom: 0;
       left: 0;
-      padding: 10px;
+      padding: 5px;
       margin: 0; /* Remove default margin */
       display: flex;
       align-items: center;
+      margin-bottom: -10px;
     }
 
     .version {
