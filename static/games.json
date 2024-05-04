@@ -594,6 +594,36 @@
     "description": "Opposite Day is a delightful online puzzle-adventure game where players step into a world turned on its head! Everything you know is flipped, from gravity to logic, as you navigate through mind-bending challenges. With vibrant visuals and clever level design, embrace the absurdity and reverse your thinking to conquer each perplexing puzzle."
   },
   {
+    "name": "Smash Karts",
+    "link": "https://smashkarts.io/",
+    "image": "https://cdn.now.gg/apps-content/com.nowgg.h5.pub560.app51304/icon/smash-karts.png",
+    "description": "Smash Karts is a free online game where players compete in go-kart races, using weapons and power-ups to eliminate their opponents. It features a variety of tracks and game modes, and can be played with friends or against other players online."
+  },
+  {
+    "name": "Hexanaut.io",
+    "link": "https://hexanaut.io/",
+    "image": "https://appleworm.io/upload/imgs/hexanaut-io1.jpg",
+    "description": "Hexanaut.io is a 3D multiplayer snake game where players battle to capture hexagons and become the king. Players can seize totems for extra powers and wait for time-outs or kill enemies to win."
+  },
+  {
+    "name": "SANDTRIS",
+    "link": "https://sandtris.com/",
+    "image": "https://play-lh.googleusercontent.com/l5OXNRzurL4a4lwLGbLxN9dTVkrHzkxIc5uqUwrJ7PdaynL-P9geRqe-0V5R-pnmf1M",
+    "description": "Sandtris is a puzzle game where you manipulate different shapes of sand blocks that fall from the top of the screen. Your goal is to rotate and arrange the blocks to form complete lines without any gaps."
+  },
+  {
+    "name": "Tetris",
+    "link": "https://djblue.github.io/tetris/",
+    "image": "https://tetris.wiki/images/0/00/EA_Tetris_icon.png",
+    "description": "Tetris is a tile-matching puzzle game where players rotate and fit falling blocks into horizontal lines without gaps. Completing a line clears it and earns points. The game ends when blocks stack up and reach the top of the playing field. "
+  },
+  {
+    "name": "Slide In The Woods",
+    "link": "https://en.gameslol.net/data/slide-in-the-woods/index.html",
+    "image": "https://static.arcadespot.com/wp-content/uploads/2021/10/slide-in-the-woods-164x164.png",
+    "description": "Slide in the Woods is a free horror adventure game where you explore a mysterious slide in the woods. The game is played in first-person perspective and features a dark and atmospheric environment."
+  },
+  {
     "name": "Ant Art Tycoon",
     "link": "https://antarttycoon.github.io/game/index.html",
     "image": "/assets/icons/AntArtTycoon.png",
