@@ -624,6 +624,36 @@
     "description": "Slide in the Woods is a free horror adventure game where you explore a mysterious slide in the woods. The game is played in first-person perspective and features a dark and atmospheric environment."
   },
   {
+    "name": "WorldGuessr",
+    "link": "https://www.worldguessr.com/",
+    "image": "https://www.worldguessr.com/icon_144x144.png",
+    "description": "WorldGuessr is a clone of GeoGuessr, the popular online game that challenges players to guess their location based on Google Street View imagery. It's a fun and educational way to explore the world and test your knowledge of geography."
+  },
+  {
+    "name": "Minecraft.io",
+    "link": "https://mine-craft.io/",
+    "image": "https://kevin.games/assets/cache_image/games/minecraft-io_200x200_98b.jpg",
+    "description": "Minecraft.io is a free-to-play online game inspired by the popular sandbox game Minecraft. It offers a similar experience of gathering resources, building structures, and battling enemies, but with a top-down perspective and a focus on multiplayer interaction."
+  },
+  {
+    "name": "Lurkers.io",
+    "link": "https://lurkers.io/",
+    "image": "https://kevin.games/assets/images/new/lurkers-io.jpg",
+    "description": "Lurkers.io is a free, multiplayer browser game with a retro style. It combines elements of mining, crafting, and shooting. Players can build bases, gather resources, purchase weapons, and battle other players or zombies. The game is mod-friendly, allowing players to host their own servers and create custom game modes."
+  },
+  {
+    "name": "Realmz.io",
+    "link": "https://realmz.io/",
+    "image": "https://iogamesio.org/upload/imgs/realmz.io.png",
+    "description": "Realmz.io is a free-to-play multiplayer browser game where players fight each other and powerful enemies to dominate the realm. It features thrilling battles, multiple biomes with unique fauna, and boss fights."
+  },
+  {
+    "name": "Swordbattle.io",
+    "link": "https://swordbattle.io/",
+    "image": "https://swordbattle.io/assets/game/player/sword.png",
+    "description": "Swordbattle.io is a web-based multiplayer sword fighting game where players battle each other in an online arena. The game features various swords, power-ups, and customization options."
+  },
+  {
     "name": "Ant Art Tycoon",
     "link": "https://antarttycoon.github.io/game/index.html",
     "image": "/assets/icons/AntArtTycoon.png",
