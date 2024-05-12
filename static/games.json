@@ -468,12 +468,6 @@
     "description": "Florr.io is a multiplayer online game where players control a flower and compete against other players to collect rare petals, defeat enemies, and expand their garden. The objective is to become the largest and most dominant flower on the server."
   },
   {
-    "name": "Flappy Plane",
-    "link": "https://html-classic.itch.zone/html/7665919/index.html",
-    "image": "/assets/icons/FlappyPlane.png",
-    "description": "In Flappy Plane, dodge obstacles as you navigate your plane through a maze of towering structures. Stay focused and keep flying to beat your high score! WARNING: This is just a joke and is not supposed to be taken seriously by anyone."
-  },
-  {
     "name": "SMB Versus",
     "link": "https://mr-funkinguy.github.io/gfile/mariovsluigi/index.html",
     "image": "/assets/icons/SMBversus.png",
@@ -600,12 +594,6 @@
     "description": "Smash Karts is a free online game where players compete in go-kart races, using weapons and power-ups to eliminate their opponents. It features a variety of tracks and game modes, and can be played with friends or against other players online."
   },
   {
-    "name": "Hexanaut.io",
-    "link": "https://hexanaut.io/",
-    "image": "https://appleworm.io/upload/imgs/hexanaut-io1.jpg",
-    "description": "Hexanaut.io is a 3D multiplayer snake game where players battle to capture hexagons and become the king. Players can seize totems for extra powers and wait for time-outs or kill enemies to win."
-  },
-  {
     "name": "SANDTRIS",
     "link": "https://sandtris.com/",
     "image": "https://play-lh.googleusercontent.com/l5OXNRzurL4a4lwLGbLxN9dTVkrHzkxIc5uqUwrJ7PdaynL-P9geRqe-0V5R-pnmf1M",
@@ -682,6 +670,30 @@
     "link": "https://gasroms.vercel.app/pokemonsapphire.html",
     "image": "https://i.ebayimg.com/images/g/dS8AAOSwD-piXjuK/s-l650.png",
     "description": "Pokémon Sapphire is a role-playing video game developed by Game Freak and published by Nintendo for the Game Boy Advance in 2002. It takes players on a journey through the Hoenn region, where they can train, battle, and trade with a new set of Pokémon."
+  },
+  {
+    "name": "Tube Clicker",
+    "link": "https://tubeclicker.github.io/tube-clicker/",
+    "image": "https://kizicdn.com/system/static/thumbs/big_tile_thumb/1858/thumb300_30.jpg?1556203336",
+    "description": "Tube Clicker is an online game where players simulate the life of a YouTube content creator. The goal is to build a successful channel by creating videos, gaining subscribers, and using advertising tools to generate revenue."
+  },
+  {
+    "name": "Snowball Io",
+    "link": "https://snowballioonline.github.io/file/",
+    "image": "https://play-lh.googleusercontent.com/X8FEOENa_t5mlRllBh2RRLc6sMnPIq56Wxa2ndValDOmwzIRhAv7MG6fT97TLQ2DK48",
+    "description": "Snowball.io is a fast-paced multiplayer game where players control a snowball and try to knock other players off the map. The game is simple to learn but difficult to master, as players need to strategize their movements and use the environment to their advantage."
+  },
+  {
+    "name": "Talking Red",
+    "link": "https://talking-red.pages.dev",
+    "image": "https://pbs.twimg.com/media/GJSTgKya0AAANUR.jpg",
+    "description": "There exists an alternate universe within the Angry Birds franchise where Red possesses the ability to talk. This version of Red is featured in the NogginStudio Wiki and is distinct from the regular Red bird."
+  },
+  {
+    "name": "Granny",
+    "link": "https://sz-games.github.io/Games8/GRANNY/",
+    "image": "https://play-lh.googleusercontent.com/yT_LBq_tyKeIDohKDsqN_Qt18jGIPUYIxY2C-1-E2YA9Qd60uZW08pua17qBmIiDPA",
+    "description": "The Horror Game Granny is a popular horror game where you must escape a creepy old woman's house. The game is known for its intense atmosphere, jump scares, and challenging puzzles."
   },
   {
     "name": "Ant Art Tycoon",
