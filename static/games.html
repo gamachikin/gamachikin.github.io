@@ -27,6 +27,8 @@
     <button onclick="shuffleGame()" class="shuffle-button" title="Randomly Selects A game">
       <img src="https://img.icons8.com/glyph-neue/64/FFFFFF/shuffle.png" alt="Shuffle Icon" style="width: 32px; height: 32px;">
     </button>
+  <div id="game-cards"></div>
+  </div>
 <script>
 fetch('games.json')
     .then(response => response.json())
