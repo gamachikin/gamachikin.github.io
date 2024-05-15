@@ -61,6 +61,20 @@ fetch('games.json')
         });
     })
     .catch(error => console.error('Error fetching data:', error));
+     // Shuffle function
+      function shuffleGame() {
+        fetch('games.json')
+          .then(response => response.json())
+          .then(data => {
+            // Get a random game from the data
+            const randomIndex = Math.floor(Math.random() * data.length);
+            const randomGame = data[randomIndex];
+
+            // Redirect to the preload page with the random game
+            window.location.href = `/preload.html?game=${encodeURIComponent(randomGame.name)}`;
+          })
+          .catch(error => console.error('Error shuffling game:', error));
+      }
 </script>
 <script>
 // Get the input element and game cards container
