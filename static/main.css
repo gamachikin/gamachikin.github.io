@@ -258,3 +258,25 @@ input[type=text] {
       margin-right: 10px;
       color: var(--text-color);
     }
+    .search-container {
+      margin-bottom: 10px;
+      position: relative; /* Add position relative to the container */
+    }
+
+    .search-container input {
+      vertical-align: middle; /* Align the input field vertically */
+      margin-right: 10px; /* Add some margin to separate the input and button */
+    }
+
+.shuffle-button {
+    border: none;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 7px;
+    height: 34px;
+    background-color: #333;
+    transition: transform 0.3s ease;
+}
+        .shuffle-button:hover {
+      transform: scale(1.4); /* Scale up the button slightly on hover */
+    }

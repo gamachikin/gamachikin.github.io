@@ -22,9 +22,11 @@
     </div>
   </nav>
   <div style="padding-top: 125px">
-  <input class="GameSearch" type="text" id="searchInput" placeholder="Search for a game...">
-  <div id="game-cards"></div>
-
+  <div class="search-container">
+    <input class="GameSearch" type="text" id="searchInput" placeholder="Search for a game...">
+    <button onclick="shuffleGame()" class="shuffle-button" title="Randomly Selects A game">
+      <img src="https://img.icons8.com/glyph-neue/64/FFFFFF/shuffle.png" alt="Shuffle Icon" style="width: 32px; height: 32px;">
+    </button>
 <script>
 fetch('games.json')
     .then(response => response.json())
