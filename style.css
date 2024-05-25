@@ -1,1 +1,5 @@
-
+body {
+  font-family: lato;
+  background: linear-gradient(to right, rgb(226, 31, 31), rgb(34, 51, 207));
+  text-color: white;
+}
