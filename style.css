@@ -30,6 +30,10 @@ body {
     margin-top: 25px;
     transition: transform 0.3s ease;
 }
+.pfp img {
+    width: 200px;
+    border-radius: 10px
+}
 .pfp:hover {
     transform: scale(1.05);
 }
