@@ -39,12 +39,24 @@ body {
 }
 .skill-container {
     margin-bottom: 20px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 45px 0.5px rgba(0, 0, 0, .25);
+    border-radius: 25px;
+    margin-top: 25px;
+    transition: transform 0.3s ease;
 }
-
+.skill-container:hover {
+    transform: scale(1.05);
+}
 .progress-bar {
     width: 100%;
     background-color: #e0e0e0;
-    border-radius: 5px;
+    border-radius: 9px;
     overflow: hidden;
     margin: 5px 0;
 }
