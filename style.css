@@ -37,3 +37,26 @@ body {
 .pfp:hover {
     transform: scale(1.05);
 }
+.skill-container {
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 5px 0;
+}
+
+.progress {
+    height: 20px;
+    background-color: #76c7c0;
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+
+.percentage {
+    font-size: 14px;
+    font-weight: bold;
+}
