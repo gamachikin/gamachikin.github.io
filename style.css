@@ -5,20 +5,31 @@ body {
     text-align: center;
     font-size: large;
 }
-title {
+.title {
     width: fit-content;
     text-align: center;
     margin: auto;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 45px 0.5px rgba(0, 0, 0, .25);
+    margin-top: 25px;
+    transition: transform 0.3s ease;
 }
-title:hover {
-
+.title:hover {
+    transform: scale(1.05);
 }
-pfp {
-
+.pfp {
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 45px 0.5px rgba(0, 0, 0, .25);
+    margin-top: 25px;
+    transition: transform 0.3s ease;
 }
-pfp:hover {
-
+.pfp:hover {
+    transform: scale(1.05);
 }
