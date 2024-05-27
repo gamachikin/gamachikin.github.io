@@ -1,9 +1,42 @@
 body {
     font-family: lato;
-    background: linear-gradient(to right, rgb(226, 31, 31), rgb(34, 51, 207));
+    background: linear-gradient(to bottom right, rgb(226, 31, 31), rgb(34, 51, 207));
     color: white;
     text-align: center;
     font-size: large;
+    background: linear-gradient(to bottom right, rgb(226, 31, 31), rgb(34, 51, 207));
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    position: relative;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
+  background: transparent;
+}
+
+/* Track */
+::-webkit-scrollbar-track {;
+  border-radius: 10px;
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-corner {
+  border-radius: 10px;
+  background: transparent;
 }
 .title {
     width: fit-content;
@@ -71,4 +104,23 @@ body {
 .percentage {
     font-size: 14px;
     font-weight: bold;
+}
+.games {
+        margin-bottom: 20px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 45px 0.5px rgba(0, 0, 0, .25);
+    border-radius: 25px;
+    margin-top: 25px;
+    transition: transform 0.3s ease;
+}
+.games:hover {
+    transform: scale(1.05);
+}
+.games span {
+    margin-left: 50px
 }
