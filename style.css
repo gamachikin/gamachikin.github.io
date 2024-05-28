@@ -10,6 +10,7 @@ body {
     justify-content: center;
     display: block;
     position: relative;
+    overflow: hidden;
 }
 html, body {
     height: 100%;
