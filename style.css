@@ -24,7 +24,7 @@ html, body {
 }
 
 /* Track */
-::-webkit-scrollbar-track {;
+::-webkit-scrollbar-track {
   border-radius: 10px;
     background: transparent;
 }
@@ -121,6 +121,19 @@ html, body {
 .games:hover {
     transform: scale(1.05);
 }
-.games span {
-    margin-left: 50px
+.games p {
+text-decoration: none;
+transition: transform 0.3s ease;
+}
+.games a {
+text-decoration: none;
+color: white;
+transition: transform 0.3s ease;
+}
+.games a:hover {
+    transform: scale(1.05);
+}
+.games p:hover {
+text-decoration: none;
+transform: scale(1.05);
 }
