@@ -29,28 +29,28 @@
       fetch('apps.json')
         .then(response => response.json())
         .then(data => {
-          const gameCardsContainer = document.getElementById('game-cards');
+          const appCardsContainer = document.getElementById('game-cards');
           
-          data.forEach(game => {
+          data.forEach(app => {
             const card = document.createElement('div');
             card.className = 'card';
             
             const link = document.createElement('a');
-            link.href = `/loadapp.html?game=${encodeURIComponent(game.name)}`;
+            link.href = `/app.html?app=${encodeURIComponent(app.name)}`;
             
             const image = document.createElement('img');
-            image.src = game.image;
-            image.alt = game.name;
+            image.src = app.image;
+            image.alt = app.name;
             
             const name = document.createElement('p');
-            name.textContent = game.name;
+            name.textContent = app.name;
             
             link.appendChild(image); // Append image to link
             link.appendChild(name); // Append name to link
             
             card.appendChild(link); // Append link to card
             
-            gameCardsContainer.appendChild(card);
+            appCardsContainer.appendChild(card);
           });
         })
         .catch(error => console.error('Error fetching data:', error));
@@ -58,7 +58,7 @@
 <script>
 // Get the input element and game cards container
 const searchInput = document.getElementById('searchInput');
-const gameCardsContainer = document.getElementById('game-cards');
+const appCardsContainer = document.getElementById('game-cards');
 
 // Add an input event listener to the search input
 searchInput.addEventListener('input', function() {
@@ -66,8 +66,8 @@ searchInput.addEventListener('input', function() {
 
     // Loop through each game card and hide/show based on the search term
     document.querySelectorAll('.card').forEach(card => {
-        const gameTitle = card.innerText.toLowerCase();
-        if (gameTitle.includes(searchTerm)) {
+        const appTitle = card.innerText.toLowerCase();
+        if (appTitle.includes(searchTerm)) {
             card.style.display = 'inline-block';  // Show the card
         } else {
             card.style.display = 'none';   // Hide the card
@@ -75,7 +75,7 @@ searchInput.addEventListener('input', function() {
     });
 
     // Reset the layout of game cards
-    gameCardsContainer.style.textAlign = 'center'; // Center align the cards
+    appCardsContainer.style.textAlign = 'center'; // Center align the cards
 });
 </script>
 

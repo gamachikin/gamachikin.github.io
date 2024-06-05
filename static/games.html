@@ -9,26 +9,47 @@
   <link href='https://fonts.googleapis.com/css?family=Lato:wght@700' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <nav>
-    <p id="time"></p>
-    <div class="navitems" style="background-color: rgba(0, 0, 0, 0.17); border-radius: 15px">
-      <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 15px 0 0 15px;"><a href="/games">Games</a></div>
-      <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 0 15px 15px 0;"><a href="/apps">Apps</a></div>
-      <a href="/" class="mainNAVimage-container">
-        <img src="G&S nav.png" class="mainNAVimage">
-      </a>                                                                                                                 
-      <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 15px 0 0 15px;"><a href="/chat">Chat</a></div>
-      <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 0 15px 15px 0;"><a href="/settings">Settings</a></div>
-    </div>
-  </nav>
+  <style>
+    /* Additional CSS for positioning the shuffle button */
+    .search-container {
+      margin-bottom: 10px;
+      position: relative; /* Add position relative to the container */
+    }
+
+    .search-container input {
+      vertical-align: middle; /* Align the input field vertically */
+      margin-right: 10px; /* Add some margin to separate the input and button */
+    }
+
+.shuffle-button {
+    border: none;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 7px;
+    height: 34px;
+    background-color: #333;
+}
+  </style>
+    <nav id="navbar">
+      <p id="time"></p>
+      <div class="navitems" style="background-color: rgba(0, 0, 0, 0.17); border-radius: 15px">
+        <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 15px 0 0 15px;"><a href="/games">Games</a></div>
+        <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 0 15px 15px 0;"><a href="/apps">Apps</a></div>
+        <a href="/" class="mainNAVimage-container">
+          <img src="G&amp;S nav.png" class="mainNAVimage">
+        </a>                                                                                                                 
+        <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 15px 0 0 15px;"><a href="/chat">Chat</a></div>
+        <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 0 15px 15px 0;"><a href="/settings">Settings</a></div>
+      </div>
+    </nav>
   <div style="padding-top: 125px">
-  <div class="search-container">
-    <input class="GameSearch" type="text" id="searchInput" placeholder="Search for a game...">
-    <button onclick="shuffleGame()" class="shuffle-button" title="Randomly Selects A game">
-      <img src="https://img.icons8.com/glyph-neue/64/FFFFFF/shuffle.png" alt="Shuffle Icon" style="width: 32px; height: 32px;">
-    </button>
+      <div class="search-container">
+      <input class="GameSearch" type="text" id="searchInput" placeholder="Search for a game...">
+      <button onclick="shuffleGame()" class="shuffle-button">
+        <img src="https://img.icons8.com/glyph-neue/64/FFFFFF/shuffle.png" alt="Shuffle Icon" style="width: 32px; height: 32px;">
+      </button>
   <div id="game-cards"></div>
-  </div>
+
 <script>
 fetch('games.json')
     .then(response => response.json())
@@ -43,7 +64,7 @@ fetch('games.json')
             card.className = 'card';
             
             const link = document.createElement('a');
-            link.href = `/preload.html?game=${encodeURIComponent(game.name)}`;
+            link.href = `/game.html?game=${encodeURIComponent(game.name)}`;
             
             const image = document.createElement('img');
             image.src = game.image;
@@ -61,7 +82,7 @@ fetch('games.json')
         });
     })
     .catch(error => console.error('Error fetching data:', error));
-     // Shuffle function
+   // Shuffle function
       function shuffleGame() {
         fetch('games.json')
           .then(response => response.json())
@@ -71,7 +92,7 @@ fetch('games.json')
             const randomGame = data[randomIndex];
 
             // Redirect to the preload page with the random game
-            window.location.href = `/preload.html?game=${encodeURIComponent(randomGame.name)}`;
+            window.location.href = `/game.html?game=${encodeURIComponent(randomGame.name)}`;
           })
           .catch(error => console.error('Error shuffling game:', error));
       }
@@ -99,7 +120,6 @@ searchInput.addEventListener('input', function() {
     gameCardsContainer.style.textAlign = 'center'; // Center align the cards
 });
 </script>
-
     <script src="/index.js"></script>
   </div>
 </body>

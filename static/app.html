@@ -22,21 +22,21 @@
       <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 0 15px 15px 0;"><a selected href="/settings">Settings</a></div>
     </div>
   </nav>
-  <div style="padding-top: 115px">
+  <div style="padding-top: 115px; overflow: hidden;">
     <div class="GameContainer">
       <div class="FrameContainer">
         <iframe allowfullscreen="true" frameborder="0" id="frame"></iframe>
       </div>
-     <div id="GameInfo" class="GameInfo">
-       <div class="GameTitle" id="GameTitle"></div>
+     <div id="AppInfo" class="GameInfo">
+       <div class="GameTitle" id="AppTitle"></div>
          <div class="GameImageContainer">
-           <img id="GameImage" alt="game image">
+           <img id="AppImage" alt="app image">
           </div>
-        <div class="GameDescription" id="GameDescription"></div>
+        <div class="GameDescription" id="AppDescription"></div>
         <div class="GameButtons">
-          <button onclick="toggleFullScreen()">Fullscreen</button>
-          <button onclick="reloadPage()">Reload</button>
-          <button onclick="goHome()">Home</button>
+          <button class="GameButtons1" onclick="toggleFullScreen()">Fullscreen</button>
+          <button class="GameButtons2" onclick="reloadPage()">Reload</button>
+          <button class="GameButtons3" onclick="goHome()">Home</button>
         </div>
     </div>
     </div>
@@ -45,37 +45,35 @@
   </div>
   <script src="/index.js"></script>
   <script>
-    // Function to fetch game data from the JSON file
-    async function fetchGameData(gameName) {
+    async function fetchAppData(appName) {
         try {
-            const response = await fetch('games.json');
-            const games = await response.json();
-            const selectedGame = games.find(game => game.name.toLowerCase() === gameName.toLowerCase());
-            if (selectedGame) {
+            const response = await fetch('apps.json');
+            const apps = await response.json();
+            const selectedApp = apps.find(app => app.name.toLowerCase() === appName.toLowerCase());
+            if (selectedApp) {
                 const iframe = document.getElementById('frame');
-                const gameTitle = document.getElementById('GameTitle');
-                const gameImage = document.getElementById('GameImage');
-                const gameDescription = document.getElementById('GameDescription');
+                const appTitle = document.getElementById('AppTitle');
+                const appImage = document.getElementById('AppImage');
+                const appDescription = document.getElementById('AppDescription');
 
-                iframe.src = selectedGame.link;
-                gameTitle.textContent = selectedGame.name;
-                gameImage.src = selectedGame.image;
-                gameDescription.textContent = selectedGame.description;
+                iframe.src = selectedApp.link;
+                appTitle.textContent = selectedApp.name;
+                appImage.src = selectedApp.image;
+                appDescription.textContent = selectedApp.description;
             } else {
-                console.error('Game not found');
+                console.error('App not found');
             }
         } catch (error) {
-            console.error('Error fetching game data:', error);
+            console.error('Error fetching app data:', error);
         }
     }
 
-    // Get the game name from the query parameter
     const params = new URLSearchParams(window.location.search);
-    const gameName = params.get('game');
-    if (gameName) {
-        fetchGameData(gameName).catch(error => console.error('Error in fetchGameData:', error));
+    const appName = params.get('app');
+    if (appName) {
+        fetchAppData(appName).catch(error => console.error('Error in fetchAppData:', error));
     } else {
-        console.error('No game specified');
+        console.error('No app specified');
     }
 
     // Function to toggle fullscreen mode

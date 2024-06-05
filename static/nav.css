@@ -4,7 +4,6 @@ nav .navitems {
   display: flex;
   align-items: center;
   list-style: none;
-  opacity: 1;
   justify-content: center;
   box-sizing: border-box;
   position: fixed;
@@ -17,8 +16,10 @@ nav .navitems {
   backface-visibility: visible;
   transition: 0.35s ease;
   z-index: 100;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
   margin: 16px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 nav a {
       color: var(--text);

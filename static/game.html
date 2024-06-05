@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="preload.css">
   <link href='https://fonts.googleapis.com/css?family=Lato:wght@700' rel='stylesheet' type='text/css'>
 </head>
-<body style="overflow: hidden;">
+<body>
   <nav>
     <p id="time"></p>
     <div class="navitems" style="background-color: rgba(0, 0, 0, 0.17); border-radius: 15px">
@@ -22,7 +22,7 @@
       <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 0 15px 15px 0;"><a selected href="/settings">Settings</a></div>
     </div>
   </nav>
-  <div style="padding-top: 115px; overflow: hidden;">
+  <div style="padding-top: 115px">
     <div class="GameContainer">
       <div class="FrameContainer">
         <iframe allowfullscreen="true" frameborder="0" id="frame"></iframe>
@@ -34,9 +34,9 @@
           </div>
         <div class="GameDescription" id="GameDescription"></div>
         <div class="GameButtons">
-          <button class="GameButtons1" onclick="toggleFullScreen()">Fullscreen</button>
-          <button class="GameButtons2" onclick="reloadPage()">Reload</button>
-          <button class="GameButtons3" onclick="goHome()">Home</button>
+          <button onclick="toggleFullScreen()">Fullscreen</button>
+          <button onclick="reloadPage()">Reload</button>
+          <button onclick="goHome()">Home</button>
         </div>
     </div>
     </div>
@@ -48,7 +48,7 @@
     // Function to fetch game data from the JSON file
     async function fetchGameData(gameName) {
         try {
-            const response = await fetch('apps.json');
+            const response = await fetch('games.json');
             const games = await response.json();
             const selectedGame = games.find(game => game.name.toLowerCase() === gameName.toLowerCase());
             if (selectedGame) {

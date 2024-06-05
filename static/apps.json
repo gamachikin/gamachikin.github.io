@@ -1,11 +1,5 @@
 [
   {
-    "name": "Movie Web",
-    "link": "https://big-black-monkey-fart.vercel.app",
-    "image": "/assets/icons/MovieWeb.png",
-    "description": "A small web app for watching movies and shows easily."
-  },
-  {
     "name": "Drawing Canvas",
     "link": "https://everyonedraw.com/10/-22909/300658",
     "image": "/assets/icons/canvas.jpg",
