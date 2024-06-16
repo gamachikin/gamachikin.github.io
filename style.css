@@ -183,3 +183,9 @@ transform: scale(1.05);
     gap: 10px; /* Space between items */
     padding: 10px;
 }
+.GAS img {
+    width: 50%;
+}
+.GASP img {
+    width: 50%;
+}
