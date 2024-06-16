@@ -185,7 +185,9 @@ transform: scale(1.05);
 }
 .GAS img {
     width: 50%;
+    border-radius: 10px;
 }
 .GASP img {
     width: 50%;
+    border-radius: 10px;
 }
