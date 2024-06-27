@@ -74,3 +74,24 @@ window.onload = function() {
     }
 };
 
+let lastScrollTop = 0;
+const navbar = document.querySelector('nav .navitems');
+
+// Initially show the navbar with bounce effect
+window.addEventListener('DOMContentLoaded', () => {
+  navbar.classList.add('visible');
+});
+
+window.addEventListener('scroll', () => {
+  let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  if (scrollTop > lastScrollTop) {
+    // Scrolling down
+    navbar.classList.remove('visible');
+    navbar.classList.add('hidden');
+  } else {
+    // Scrolling up
+    navbar.classList.remove('hidden');
+    navbar.classList.add('visible');
+  }
+  lastScrollTop = scrollTop;
+});

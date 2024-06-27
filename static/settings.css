@@ -1,9 +1,3 @@
-.container {
-    margin: 20px auto;
-    padding: 20px;
-    max-width: 300px;
-    text-align: center;
-}
 
 label {
     display: block;
@@ -112,7 +106,7 @@ button:hover {
         /* Style the dropdown options container */
 .dropdown-content2 {
     display: none;
-    position: relative;
+    position: absolute;
     background-color: #333;
     border-radius: 10px;
     width: 200px;
@@ -137,28 +131,24 @@ button:hover {
         }
 .SettingsTitle {
     position: relative;
-    top: 320px;
     text-align: center;
     display: block;
 }
 
 .custom-dropdown {
     position: relative;
-    top: 320px; /* Adjust as needed */
     text-align: center;
     display: block;
 }
 
 .SettingsTitle2 {
     position: relative;
-    top: 1px;
     text-align: center;
     display: block;
 }
 
 .custom-dropdown2 {
     position: relative;
-    top: 1px; /* Adjust as needed */
     text-align: center;
     display: block;
 }
@@ -246,3 +236,47 @@ button:hover {
             cursor: pointer;
             font-family: 'Lato', sans-serif; /* Apply the Lato font to option text */
         }
+.container {
+    position: relative;
+    left: -5%;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    width: 400px;
+    padding-bottom: 100px;
+}
+.container form {
+    margin: 20px;
+}
+.main-container {
+    display: inline-flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 125px;
+    margin-left: 135px;
+}
+.Themes {
+    position: relative;
+    left: -5%;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    width: 400px;
+    padding-bottom: 250px;
+}
+.AboutBlank {
+    position: relative;
+    left: -5%;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    width: 400px;
+    padding-bottom: 260px;
+}
+.TabCloaks {
+    position: relative;
+    left: -5%;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    width: 400px;
+    padding-bottom: 260px;
+}

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,32 +16,35 @@
   <body>
           <nav>
                   <p id="time"></p>
-                  
+
                         <div class="navitems" style="background-color: rgba(0, 0, 0, 0.17); border-radius: 15px">
                                   <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 15px 0 0 15px;"><a href="/games">Games</a></div>
                                           <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 0 15px 15px 0;"><a href="/apps">Apps</a></div>
                                           <a href="/" class="mainNAVimage-container">
                                             <img src="G&S nav.png" class="mainNAVimage">
                                           </a>                                                                           
-                                                                                    
+
                                           <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 15px 0 0 15px;"><a href="/chat">Chat</a></div>
                                                   <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 0 15px 15px 0;"><a selected href="/settings">Settings</a></div>
                         </div>
                       </nav>
-<div class="container" style="padding-top: 125px">
+<div class="main-container">
+ <div class="container">
         <h1>Custom Tab Cloaks</h1>
         <form id="editForm">
             <label for="tabName">Tab Name:</label>
-            <input type="text" id="tabName" placeholder="Enter Tab Name"><br>
+            <input type="text" id="tabName" placeholder="Enter Tab Name" data-listener-added_87c8a330="true"><br>
             <label for="iconUrl">Icon URL:</label>
-            <input type="text" id="iconUrl" placeholder="Enter Icon URL"><br>
+            <input type="text" id="iconUrl" placeholder="Enter Icon URL" data-listener-added_87c8a330="true"><br>
             <button type="submit">Update</button>
             <button type="button" id="resetBtn">Reset</button>
         </form>
     </div>
-
-  <h2 class="settings">Themes</h2>
-  <select id="theme-select" class="settings theme-select">
+<div class="Themes">
+  <h1 class="settings">Themes</h1>
+  <select id="theme-select" class="settings theme-select" style="
+    top: 15px;
+">
   <option value="main">Default</option>
   <option value="purple">Purple</option>
   <option value="amoled">AMOLED</option>
@@ -55,11 +57,12 @@
   <option value="ape">Ape</option>
   <option value="slope">Slope</option>
   </select>                         
-
-      <h2 class="SettingsTitle">About:Blank Cloaks</h2>
+</div>
+<div class="AboutBlank">
+      <h1 class="SettingsTitle">About:Blank Cloaks</h1>
         <div class="custom-dropdown" onclick="toggleDropdown()">
             <button class="dropdown-button">Select A Cloak</button>
-            <div class="dropdown-content">
+            <div class="dropdown-content" style="display: none;">
                 <div class="dropdown-option" onclick="selectOption('Google Slides', 'https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_1_presentation_x16.png')">Google Slides Cloak</div>
                 <div class="dropdown-option" onclick="selectOption('My Drive - Google Drive', 'https://drive.google.com/favicon.ico')">Google Drive Cloak</div>
                 <div class="dropdown-option" onclick="selectOption('Google Docs', 'https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_1_document_x16.png')">Google Docs Cloak</div>
@@ -72,10 +75,13 @@
                 <div class="dropdown-option" onclick="selectOption('IXL | Dashboard', 'https://ixl.com/favicon.ico')">IXL Cloak</div>
             </div>
         </div>
-          <h2 class="SettingsTitle2">Tab Cloaks</h2>
+      </div>
+<div class="TabCloaks">
+          <h1 class="SettingsTitle2"
+>Tab Cloaks</h1>
             <div class="custom-dropdown2" onclick="toggleDropdown2()">
               <button class="dropdown-button2">Select A Cloak</button>
-              <div class="dropdown-content2">
+              <div class="dropdown-content2" style="display: none;">
                 <div class="dropdown-option2" onclick="selectOption2('Google Slides', 'https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_1_presentation_x16.png')">Google Slides Cloak</div>
                 <div class="dropdown-option2" onclick="selectOption2('My Drive - Google Drive', 'https://drive.google.com/favicon.ico')">Google Drive Cloak</div>
                 <div class="dropdown-option2" onclick="selectOption2('Google Docs', 'https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_1_document_x16.png')">Google Docs Cloak</div>
@@ -88,142 +94,141 @@
                 <div class="dropdown-option2" onclick="selectOption2('IXL | Dashboard', 'https://ixl.com/favicon.ico')">IXL Cloak</div>
         </div>
     </div>
-    
+</div></div>
 <script>
-// Function to change the tab title
-function changeTabTitle(newTitle) {
-    document.title = newTitle;  // Change the title of the current tab
-    localStorage.setItem('tabTitle', newTitle);  // Store the tab title in local storage
-}
-
-// Function to change the favicon
-function changeFavicon(faviconUrl) {
-    var favicon = document.querySelector('link[rel="shortcut icon"]');
-    if (favicon) {
-        favicon.href = faviconUrl;  // Change the favicon of the current tab
-        localStorage.setItem('faviconUrl', faviconUrl);  // Store the favicon URL in local storage
-    }
-}
-
-// Check if there are stored values for tab title and favicon and apply them
-window.onload = function() {
-    var storedTitle = localStorage.getItem('tabTitle');
-    var storedFaviconUrl = localStorage.getItem('faviconUrl');
-    
-    if (storedTitle) {
-        changeTabTitle(storedTitle);
+    // Function to change the tab title
+    function changeTabTitle(newTitle) {
+        document.title = newTitle;  // Change the title of the current tab
+        localStorage.setItem('tabTitle', newTitle);  // Store the tab title in local storage
     }
     
-    if (storedFaviconUrl) {
-        changeFavicon(storedFaviconUrl);
+    // Function to change the favicon
+    function changeFavicon(faviconUrl) {
+        var favicon = document.querySelector('link[rel="shortcut icon"]');
+        if (favicon) {
+            favicon.href = faviconUrl;  // Change the favicon of the current tab
+            localStorage.setItem('faviconUrl', faviconUrl);  // Store the favicon URL in local storage
+        }
     }
-};
-
-document.getElementById('editForm').addEventListener('submit', function(event) {
-    event.preventDefault();
     
-    var tabName = document.getElementById('tabName').value;
-    var iconUrl = document.getElementById('iconUrl').value;
-
-    changeTabTitle(tabName);
-    changeFavicon(iconUrl);
-});
-
-document.getElementById('resetBtn').addEventListener('click', function() {
-    localStorage.removeItem('tabTitle');
-    localStorage.removeItem('faviconUrl');
-    location.reload(); // Refresh the page to reset tab title and favicon
-});
-
-// Function to get the current favicon URL
-function getFaviconUrl() {
-    var favicon = document.querySelector("link[rel~='icon']");
-    return favicon ? favicon.href : '';
-}
-
-// Function to update the favicon
-function updateFavicon(iconUrl) {
-    var link = document.querySelector("link[rel~='icon']") || document.createElement('link');
-    link.type = 'image/x-icon';
-    link.rel = 'icon';
-    link.href = iconUrl;
-    document.getElementsByTagName('head')[0].appendChild(link);
-}
-</script>
+    // Check if there are stored values for tab title and favicon and apply them
+    window.onload = function() {
+        var storedTitle = localStorage.getItem('tabTitle');
+        var storedFaviconUrl = localStorage.getItem('faviconUrl');
+        
+        if (storedTitle) {
+            changeTabTitle(storedTitle);
+        }
+        
+        if (storedFaviconUrl) {
+            changeFavicon(storedFaviconUrl);
+        }
+    };
     
-<script>
-        var dropdownActive = false;
-
-        function toggleDropdown() {
-            dropdownActive = !dropdownActive;
-            var dropdownContent = document.querySelector('.dropdown-content');
-            if (dropdownActive) {
-                dropdownContent.style.display = 'block';
-            } else {
-                dropdownContent.style.display = 'none';
-            }
-        }
-
-        function selectOption(title, faviconUrl) {
-            toggleDropdown();
-            openFullscreen(title, faviconUrl);
-        }
-
-        function openFullscreen(title, faviconUrl) {
-            var win = window.open('about:blank', '_blank');
-
-            var favicon = win.document.createElement('link');
-            favicon.rel = 'shortcut icon';
-            favicon.href = faviconUrl;
-            favicon.type = 'image/x-icon';
-            win.document.head.appendChild(favicon);
-
-            win.document.title = title;
-
-            var iframe = win.document.createElement('iframe');
-            iframe.src = window.location.href; // Open current page URL
-            iframe.style.position = 'absolute';
-            iframe.style.top = '0';
-            iframe.style.left = '0';
-            iframe.style.width = '100%';
-            iframe.style.height = '100%';
-            iframe.style.border = 'none';
-            win.document.body.appendChild(iframe);
-        }
+    document.getElementById('editForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        
+        var tabName = document.getElementById('tabName').value;
+        var iconUrl = document.getElementById('iconUrl').value;
+    
+        changeTabTitle(tabName);
+        changeFavicon(iconUrl);
+    });
+    
+    document.getElementById('resetBtn').addEventListener('click', function() {
+        localStorage.removeItem('tabTitle');
+        localStorage.removeItem('faviconUrl');
+        location.reload(); // Refresh the page to reset tab title and favicon
+    });
+    
+    // Function to get the current favicon URL
+    function getFaviconUrl() {
+        var favicon = document.querySelector("link[rel~='icon']");
+        return favicon ? favicon.href : '';
+    }
+    
+    // Function to update the favicon
+    function updateFavicon(iconUrl) {
+        var link = document.querySelector("link[rel~='icon']") || document.createElement('link');
+        link.type = 'image/x-icon';
+        link.rel = 'icon';
+        link.href = iconUrl;
+        document.getElementsByTagName('head')[0].appendChild(link);
+    }
     </script>
-
+        
     <script>
-        function changeTabTitle(newTitle) {
-            document.title = newTitle;  // Change the title of the current tab
-        }
-
-function changeFavicon(faviconUrl) {
-    var favicon = document.querySelector('link[rel="shortcut icon"]');
-    if (favicon) {
-        favicon.href = faviconUrl;  // Change the favicon of the current tab
-    }
-}
-
-        var dropdownActive2 = false;
-
-        function toggleDropdown2() {
-            dropdownActive2 = !dropdownActive2;
-            var dropdownContent2 = document.querySelector('.dropdown-content2');
-            if (dropdownActive2) {
-                dropdownContent2.style.display = 'block';
-                dropdownContent2.parentElement.classList.add('active');
-            } else {
-                dropdownContent2.style.display = 'none';
-                dropdownContent2.parentElement.classList.remove('active');
+            var dropdownActive = false;
+    
+            function toggleDropdown() {
+                dropdownActive = !dropdownActive;
+                var dropdownContent = document.querySelector('.dropdown-content');
+                if (dropdownActive) {
+                    dropdownContent.style.display = 'block';
+                } else {
+                    dropdownContent.style.display = 'none';
+                }
             }
+    
+            function selectOption(title, faviconUrl) {
+                toggleDropdown();
+                openFullscreen(title, faviconUrl);
+            }
+    
+            function openFullscreen(title, faviconUrl) {
+                var win = window.open('about:blank', '_blank');
+    
+                var favicon = win.document.createElement('link');
+                favicon.rel = 'shortcut icon';
+                favicon.href = faviconUrl;
+                favicon.type = 'image/x-icon';
+                win.document.head.appendChild(favicon);
+    
+                win.document.title = title;
+    
+                var iframe = win.document.createElement('iframe');
+                iframe.src = window.location.href; // Open current page URL
+                iframe.style.position = 'absolute';
+                iframe.style.top = '0';
+                iframe.style.left = '0';
+                iframe.style.width = '100%';
+                iframe.style.height = '100%';
+                iframe.style.border = 'none';
+                win.document.body.appendChild(iframe);
+            }
+        </script>
+    
+        <script>
+            function changeTabTitle(newTitle) {
+                document.title = newTitle;  // Change the title of the current tab
+            }
+    
+    function changeFavicon(faviconUrl) {
+        var favicon = document.querySelector('link[rel="shortcut icon"]');
+        if (favicon) {
+            favicon.href = faviconUrl;  // Change the favicon of the current tab
         }
-
-        function selectOption2(title, faviconUrl) {
-            toggleDropdown2();
-            changeTabTitle(title);
-            changeFavicon(faviconUrl);
+    }
+    
+    var dropdownActive2 = false;
+    
+    function toggleDropdown2() {
+        dropdownActive2 = !dropdownActive2;
+        var dropdownContent2 = document.querySelector('.dropdown-content2');
+        if (dropdownActive2) {
+            dropdownContent2.style.display = 'block';
+        } else {
+            dropdownContent2.style.display = 'none';
         }
-    </script>
-  </body>
-                        <script src="settings.js"></script>
-                        <script src="index.js"></script>
+    }
+    
+            function selectOption2(title, faviconUrl) {
+                toggleDropdown2();
+                changeTabTitle(title);
+                changeFavicon(faviconUrl);
+            }
+        </script>
+      </body>
+                            <script src="settings.js"></script>
+                            <script src="index.js"></script>
+</html>

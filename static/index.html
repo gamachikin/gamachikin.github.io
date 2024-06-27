@@ -14,6 +14,15 @@
                         <link href='https://fonts.googleapis.com/css?family=Lato:wght@700' rel='stylesheet' type='text/css'>
   </head>
   <body style="overflow: hidden;">
+    <style>
+      body {
+          margin: 0;
+          overflow: hidden;
+      }
+      canvas {
+          display: block;
+      }
+  </style>
           <nav>
                   <p id="time"></p>
                   
@@ -28,25 +37,24 @@
                         </div>
                       </nav>
     <div class="version-container">
-    <p class="version">v1.05</p>
+    <p class="version">v1.10a</p>
     <a href="https://github.com/gamachikin/GamesAndStuff" class="link">GitHub</a>
     <a href="https://forms.gle/mVmZuknUPVZ1QCE87" class="link">Game Request</a>
     <a href="https://forms.gle/AoNPwbD4TRuswtL6A" class="link">App Request</a>
     <a href="https://forms.gle/p2wY7XWG45CauPRi8" class="link">Feature Request</a>
+    <a href="https://games-and-stuff-proxy.koyeb.app/" class="link">Proxy Version</a>
   </div>
                      <div class="siteinfos" style="background-color: rgba(0, 0, 0, 0.17); border-radius: 15px; vertical-align: middle; padding: 2px 0;">
                         <h1>Welcome To Games & Stuff</h1>
-                        <p>You can enjoy games, a real-time drawing canvas, and a full on chat room all on Games & Stuff. Also, this gets updated every week!</p>
+                        <p>Games And Stuff is a vibrant website featuring a variety of engaging games, an interactive drawing canvas, and a lively chat room, all refreshed with exciting new content.</p>
                        </div>                      
                         <div class="credits" style="background-color: rgba(0, 0, 0, 0.17); border-radius: 15px; padding: 1px 0; vertical-align: middle;">
                           <h1>Credits</h1>
                           <p>Thanks to: gamachikin: creator - designer - most code, ChileanBash: game adding - Javascript, and you for using this site!</p>
                        </div> 
                       <div class="proxy" style="background-color: rgba(0, 0, 0, 0.17); border-radius: 15px; padding: 1px 0; vertical-align: middle;">
-                          <h1>Games And Stuff Proxy!</h1>
-                          <p>You can now use the proxy by going to <a href="https://games-and-stuff-proxy.koyeb.app/" style="
-                            color: var(--text-color);
-                        ">this link</a></p>
+                          <h1>G&S MC Server!</h1>
+                          <p>Games & Stuff now has a Minecraft server for java. The server address is: gamesandstuff.shockbyte.app</p>
                        </div> 
        <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
     new Crate({
@@ -88,6 +96,8 @@ document.addEventListener('keydown', function(event) {
   }
 });
 </script>
+<canvas id="particleCanvas"></canvas>
+<script src="/particles.js"></script>
 </body>
 <script src="/index.js"></script>
 </html>
