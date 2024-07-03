@@ -696,6 +696,66 @@
     "description": "The Horror Game Granny is a popular horror game where you must escape a creepy old woman's house. The game is known for its intense atmosphere, jump scares, and challenging puzzles."
   },
   {
+    "name": "Minecraftle",
+    "link": "https://minecraftle.org/minecraftle-embed/",
+    "image": "https://art.pixilart.com/8e433973afc4.png",
+    "description": "Your goal is to try to craft the secret item from the ingredients in your inventory. This game is very similar to Wordle."
+  },
+  {
+    "name": "Euro Cup",
+    "link": "https://edufall.github.io/o4/soccer-skills-euro-cup/",
+    "image": "https://edufall.github.io/img/soccer-skills-euro-cup.png",
+    "description": "The UEFA European Championship, commonly referred to as the UEFA Euro Cup, is a football competition held every four years. This game simulates the Euro Cup."
+  },
+  {
+    "name": "Fruit Ninja",
+    "link": "https://sz-games.github.io/Games9/fruitninja/",
+    "image": "https://dl.memuplay.com/new_market/img/com.halfbrick.fruitninjafree.icon.2023-11-24-11-59-26.png",
+    "description": "Fruit Ninja is a popular mobile game where players aim to slice various fruits using their fingers swiping across the screen."
+  },
+  {
+    "name": "GD Lite",
+    "link": "https://geometrylite.io/game/geometry-dash-lite/",
+    "image": "https://w7.pngwing.com/pngs/170/465/png-transparent-geometry-dash-an-impossible-game-dodge-the-spikes-flip-gravity-amazon-com-geometrical-miscellaneous-game-text-thumbnail.png",
+    "description": "Geometry Dash Lite is a free rhythm-based action platformer game where players jump and fly through various levels filled with danger. It offers a challenging gaming experience."
+  },
+  {
+    "name": "Bad Ice Cream",
+    "link": "https://kdata1.com/2022/11/bad-ice-cream/",
+    "image": "https://badicecream.io/upload/imgs/bad-ice-cream1.jpg",
+    "description": "Bad Ice-Cream is a fun and addictive multiplayer game where you control a cute ice cream character and try to collect fruits while avoiding enemies."
+  },
+  {
+    "name": "Bad Ice Cream 2",
+    "link": "https://badicecreamgame.com/iframe/html5?id=2",
+    "image": "https://cdn.nitrome.com/images/uploads/786-1356111863-badicecream2_blog.png",
+    "description": "Bad Ice Cream 2 is a fun multiplayer ice-cream themed arcade game where players control ice creams to collect fruit and avoid enemies in a maze-like setting."
+  },
+  {
+    "name": "Bad Ice Cream 3",
+    "link": "https://badicecreamgame.com/iframe/html5?id=3",
+    "image": "https://cdn.nitrome.com/images/uploads/1006-1388685375-bic3-update.png",
+    "description": "Bad Ice Cream 3 is a fun arcade game where you control an ice cream character to collect fruits while avoiding enemies in each level."
+  },
+  {
+    "name": "Scratch Getting Over It",
+    "link": "https://boxing2.github.io/b88/getting-over-it/",
+    "image": "https://www.gamenora.com/upload/games/thumbnails/Scratch%20Getting%20Over%20It.webp",
+    "description": "Getting Over It Scratch Edition is a fan-made version of the popular game 'Getting Over It with Bennett Foddy', created using Scratch, a free online coding platform. In this version, players navigate challenges using simple mechanics and physics."
+  },
+  {
+    "name": "Cut The Rope",
+    "link": "https://boxing2.github.io/b88/cut-the-rope/",
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/66/Cut_the_Rope_%28App_icon%29.png",
+    "description": "Cut the Rope is a popular puzzle video game where players solve logic puzzles, clear levels, and slice through ropes to feed candy to the main character, Om Nom."
+  },
+  {
+    "name": "Bad Monday Simulator",
+    "link": "https://www.gamenora.com/upload/games/html5/Bad%20Monday%20Simulator/",
+    "image": "https://pbs.twimg.com/tweet_video_thumb/FN2O6yHVUAIcadG.jpg",
+    "description": "Bad Monday Simulator is a challenging game where Garfield and Undertale come together to create the world of Undergarf. Play as Nermal Cat from the Garfield franchise and engage in an Undertale-style battle against Sansfield, the crazy fusion of Sans and Garfield."
+  },
+  {
     "name": "Ant Art Tycoon",
     "link": "https://antarttycoon.github.io/game/index.html",
     "image": "/assets/icons/AntArtTycoon.png",
