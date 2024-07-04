@@ -169,7 +169,7 @@
   },
   { 
     "name": "Friday Night Funkin'",
-    "link": "https://html-classic.itch.zone/html/2876359-976190/index.html",
+    "link": "https://html-classic.itch.zone/html/2876359-1004346/index.html",
     "image": "/assets/icons/FNF.png",
     "description": "Friday Night Funkin' is a rhythm game where you play as a character trying to impress your girlfriend's family with your rap skills. The game features catchy music, challenging levels, and colorful graphics."
   },
@@ -643,31 +643,31 @@
   },
   {
     "name": "Pokémon Fire Red",
-    "link": "https://gasroms.vercel.app/pokemonfr.html",
-    "image": "https://archives.bulbagarden.net/media/upload/4/43/FireRed_EN_boxart.png",
+    "link": "https://gasassets.vercel.app/pokemonfr.html",
+    "image": "https://images.launchbox-app.com/aaf2a2ae-2069-4954-9f37-15bd8420bf8b.jpg",
     "description": "Pokémon FireRed is set in the Kanto region, the same as the original Pokémon Red and Blue games. This region features diverse environments, from bustling cities to sprawling forests, each teeming with unique Pokémon species."
   },
   {
     "name": "Pokémon Emerald",
-    "link": "https://gasroms.vercel.app/pokemonemerald.html",
+    "link": "https://gasassets.vercel.app/pokemonemerald.html",
     "image": "https://assets-prd.ignimgs.com/2022/02/08/pokemonemerald-sq-1644346782465.jpg",
     "description": "Pokémon Emerald Version takes players back to the Hoenn region, with an expanded adventure that features both Team Magma and Team Aqua as the main antagonists, as opposed to just one team in the previous Ruby and Sapphire versions."
   },
   {
     "name": "Pokémon Leaf Green",
-    "link": "https://gasroms.vercel.app/pokemonlg.html",
+    "link": "https://gasassets.vercel.app/pokemonlg.html",
     "image": "https://upload.wikimedia.org/wikipedia/en/a/a7/Pokemon_LeafGreen_box.jpg",
     "description": "Pokémon Leaf Green is a role-playing game for the Game Boy Advance where players take on the role of an 11-year-old boy or girl who sets out from Pallet Town to become a Pokémon master."
   },
   {
     "name": "Pokémon Ruby",
-    "link": "https://gasroms.vercel.app/pokemonruby.html",
+    "link": "https://gasassets.vercel.app/pokemonruby.html",
     "image": "https://assets1.ignimgs.com/2019/05/17/pokemon-ruby---button-sm-1558057647902.jpg?width=300&crop=1%3A1%2Csmart&auto=webp",
     "description": "In Pokémon Ruby, players choose to control either a boy or girl Pokémon Trainer and set out to become the world's best Pokémon Trainer. The game takes place in the Hoenn region and features 135 new Pokémon species, double battles, and weather effects."
   },
   {
     "name": "Pokémon Sapphire",
-    "link": "https://gasroms.vercel.app/pokemonsapphire.html",
+    "link": "https://gasassets.vercel.app/pokemonsapphire.html",
     "image": "https://i.ebayimg.com/images/g/dS8AAOSwD-piXjuK/s-l650.png",
     "description": "Pokémon Sapphire is a role-playing video game developed by Game Freak and published by Nintendo for the Game Boy Advance in 2002. It takes players on a journey through the Hoenn region, where they can train, battle, and trade with a new set of Pokémon."
   },
