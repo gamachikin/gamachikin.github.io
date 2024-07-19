@@ -601,7 +601,7 @@
   },
   {
     "name": "Tetris",
-    "link": "https://djblue.github.io/tetris/",
+    "link": "https://tetrisonline.github.io/file/",
     "image": "https://tetris.wiki/images/0/00/EA_Tetris_icon.png",
     "description": "Tetris is a tile-matching puzzle game where players rotate and fit falling blocks into horizontal lines without gaps. Completing a line clears it and earns points. The game ends when blocks stack up and reach the top of the playing field. "
   },
@@ -754,6 +754,36 @@
     "link": "https://www.gamenora.com/upload/games/html5/Bad%20Monday%20Simulator/",
     "image": "https://pbs.twimg.com/tweet_video_thumb/FN2O6yHVUAIcadG.jpg",
     "description": "Bad Monday Simulator is a challenging game where Garfield and Undertale come together to create the world of Undergarf. Play as Nermal Cat from the Garfield franchise and engage in an Undertale-style battle against Sansfield, the crazy fusion of Sans and Garfield."
+  },
+  {
+    "name": "Wilds.io",
+    "link": "https://wilds.io/",
+    "image": "https://kevin.games/assets/images/games/wilds-io.jpg",
+    "description": "Wilds.io is a multiplayer online game that combines elements of survival, exploration, and crafting. Players enter a vast, open world where they can gather resources, build structures, and engage in battles with other players."
+  },
+  {
+    "name": "BFNSPUE",
+    "link": "https://kdata1.com/2023/05/baldis-fun-new-school-plus-ultimate-edition/",
+    "image": "https://img.itch.zone/aW1nLzk2ODEwOTUucG5n/original/13JKzQ.png",
+    "description": "Baldi's Fun New School Plus: Ultimate Edition is a horror-themed indie game that builds on the original, Baldi's Basics in Education and Learning. In this game, players navigate a school environment while avoiding Baldi, who becomes increasingly aggressive as the player collects items and completes tasks."
+  },
+  {
+    "name": "Skribbl.io",
+    "link": "https://skribbl.io/",
+    "image": "https://imgmedia.lbb.in/media/2020/05/5eb9149cdda0dc33a2fde6bc_1589187740390.jpg",
+    "description": "Skribbl.io is a multiplayer drawing and guessing game where players of all ages and skill levels can engage in creative and entertaining gameplay. It offers a fun experience for those who enjoy drawing and guessing words based on others' drawings."
+  },
+  {
+    "name": "Scrabble",
+    "link": "https://playscrabble.com/",
+    "image": "https://secure.gravatar.com/avatar/6339b38faa44b4989d93ea6e5e819dca?s=512&d=mm&r=g",
+    "description": "Scrabble is a word game where players score points by placing tiles, each with a single letter, onto a game board to create interconnected words. The game requires vocabulary and strategic thinking to maximize points."
+  },
+  {
+    "name": "Duck Duck Clicker",
+    "link": "https://html-classic.itch.zone/html/9737734/index.html",
+    "image": "https://bitlifegame.io/data/image/game/duck-duck-clicker.png",
+    "description": "Duck Duck Clicker combines your love for ducks with the thrill of clicking games. Click on adorable ducks to generate a growing flock of ducklings while customizing them for a personal touch. With a simple gameplay mechanic and a mission to fill the universe with cuteness, this game offers endless fun and excitement. Patience and consistency will help you expand your adorable duckling universe!"
   },
   {
     "name": "Ant Art Tycoon",
