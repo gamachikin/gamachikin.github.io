@@ -15,12 +15,11 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 const title = "𝘨𝘢𝘮𝘢𝘤𝘩𝘪𝘬𝘪𝘯"; // The title you want to animate
-let index = title.length;
+let index = 0;
 let isDeleting = false;
 
 function animateTitle() {
-    // Set the title to an empty string if deleting
-    document.title = isDeleting ? "" : title.substring(0, index);
+    document.title = title.substring(0, index);
 
     if (isDeleting) {
         index--;
