@@ -14,4 +14,27 @@ document.addEventListener("DOMContentLoaded", function() {
         percentage.textContent = skillLevel + '%';
     }
 });
+const title = "gamachikin"; // The title you want to animate
+let index = title.length;
+let isDeleting = false;
 
+function animateTitle() {
+    document.title = title.substring(0, index);
+
+    if (isDeleting) {
+        index--;
+        if (index < 0) {
+            isDeleting = false;
+            index = 1; // Start typing from the first character
+        }
+    } else {
+        index++;
+        if (index > title.length) {
+            isDeleting = true;
+        }
+    }
+
+    setTimeout(animateTitle, isDeleting ? 100 : 200);
+}
+
+animateTitle();
