@@ -149,6 +149,7 @@ transform: scale(1.05);
     border-radius: 25px;
     margin-top: 25px;
     transition: transform 0.3s ease;
+    margin-bottom: 25px;
 }
 .projects:hover {
     transform: scale(1.05);

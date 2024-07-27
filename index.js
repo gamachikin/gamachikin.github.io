@@ -14,12 +14,13 @@ document.addEventListener("DOMContentLoaded", function() {
         percentage.textContent = skillLevel + '%';
     }
 });
-const title = "gamachikin"; // The title you want to animate
+const title = "𝘨𝘢𝘮𝘢𝘤𝘩𝘪𝘬𝘪𝘯"; // The title you want to animate
 let index = title.length;
 let isDeleting = false;
 
 function animateTitle() {
-    document.title = title.substring(0, index);
+    // Set the title to an empty string if deleting
+    document.title = isDeleting ? "" : title.substring(0, index);
 
     if (isDeleting) {
         index--;
