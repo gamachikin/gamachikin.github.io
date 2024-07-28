@@ -15,17 +15,17 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 const title = "𝘨𝘢𝘮𝘢𝘤𝘩𝘪𝘬𝘪𝘯"; // The title you want to animate
-let index = 0;
+let index = 1; // Start from the second character
 let isDeleting = false;
 
 function animateTitle() {
-    document.title = title.substring(0, index);
+    document.title = title.charAt(0) + title.substring(1, index);
 
     if (isDeleting) {
         index--;
-        if (index < 0) {
+        if (index < 1) { // Ensure the first letter is never deleted
             isDeleting = false;
-            index = 1; // Start typing from the first character
+            index = 2; // Start typing from the second character
         }
     } else {
         index++;
