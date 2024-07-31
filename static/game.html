@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="preload.css">
   <link href='https://fonts.googleapis.com/css?family=Lato:wght@700' rel='stylesheet' type='text/css'>
 </head>
-<body>
+<body class="overflow: hidden;">
   <nav>
     <p id="time"></p>
     <div class="navitems" style="background-color: rgba(0, 0, 0, 0.17); border-radius: 15px">
@@ -27,31 +27,52 @@
       <div class="FrameContainer">
         <iframe allowfullscreen="true" frameborder="0" id="frame"></iframe>
       </div>
-     <div id="GameInfo" class="GameInfo">
-       <div class="GameTitle" id="GameTitle"></div>
-         <div class="GameImageContainer">
-           <img id="GameImage" alt="game image">
-          </div>
+      <div id="GameInfo" class="GameInfo">
+        <div class="GameTitle" id="GameTitle"></div>
+        <div class="GameImageContainer">
+          <img id="GameImage" alt="game image">
+        </div>
         <div class="GameDescription" id="GameDescription"></div>
+      <div class="GameRating">
+        <p id="ratingAverage"></p>
+        <p id="ratingCount"></p>
+        <div id="starRating">
+          <span class="star" data-value="1">&#9733;</span>
+          <span class="star" data-value="2">&#9733;</span>
+          <span class="star" data-value="3">&#9733;</span>
+          <span class="star" data-value="4">&#9733;</span>
+          <span class="star" data-value="5">&#9733;</span>
+        </div>
+      </div>
         <div class="GameButtons">
           <button onclick="toggleFullScreen()">Fullscreen</button>
           <button onclick="reloadPage()">Reload</button>
           <button onclick="goHome()">Home</button>
         </div>
+      </div>
     </div>
-    </div>
-   </div>
-  
   </div>
   <script src="/index.js"></script>
   <script>
-    // Function to fetch game data from the JSON file
-    async function fetchGameData(gameName) {
+    // Function to fetch and display game data and ratings
+    async function fetchGameDataAndRatings() {
         try {
+            // Get the game name from the query parameter
+            const params = new URLSearchParams(window.location.search);
+            const gameName = params.get('game');
+            
+            if (!gameName) {
+                console.error('No game specified');
+                return;
+            }
+
+            // Fetch the game data
             const response = await fetch('games.json');
             const games = await response.json();
             const selectedGame = games.find(game => game.name.toLowerCase() === gameName.toLowerCase());
+            
             if (selectedGame) {
+                // Display game data
                 const iframe = document.getElementById('frame');
                 const gameTitle = document.getElementById('GameTitle');
                 const gameImage = document.getElementById('GameImage');
@@ -61,22 +82,88 @@
                 gameTitle.textContent = selectedGame.name;
                 gameImage.src = selectedGame.image;
                 gameDescription.textContent = selectedGame.description;
+
+                // Fetch and display game rating statistics
+                const ratingResponse = await fetch(`/api/getGameRating/${encodeURIComponent(gameName)}`);
+                const ratingData = await ratingResponse.json();
+
+                if (ratingResponse.ok) {
+                    const averageRating = ratingData.averageRating;
+                    const numberOfRatings = ratingData.numberOfRatings;
+
+                    // Display rating data
+                    document.getElementById('ratingAverage').textContent = `Average Rating: ${averageRating}`;
+                    document.getElementById('ratingCount').textContent = `Number of Ratings: ${numberOfRatings}`;
+                    
+                    // Highlight stars based on average rating
+                    highlightStars(averageRating);
+                } else {
+                    console.error('Error fetching rating data:', ratingData.message);
+                }
             } else {
                 console.error('Game not found');
             }
         } catch (error) {
-            console.error('Error fetching game data:', error);
+            console.error('Error fetching game data or ratings:', error);
         }
     }
 
-    // Get the game name from the query parameter
-    const params = new URLSearchParams(window.location.search);
-    const gameName = params.get('game');
-    if (gameName) {
-        fetchGameData(gameName).catch(error => console.error('Error in fetchGameData:', error));
-    } else {
-        console.error('No game specified');
+    // Function to highlight stars based on average rating
+    function highlightStars(averageRating) {
+        const stars = document.querySelectorAll('#starRating .star');
+        stars.forEach(star => {
+            const value = parseInt(star.getAttribute('data-value'), 10);
+            if (value <= averageRating) {
+                star.classList.add('highlighted');
+            } else {
+                star.classList.remove('highlighted');
+            }
+        });
     }
+
+    // Function to handle star click events
+    async function handleStarClick(event) {
+        const starValue = event.target.getAttribute('data-value');
+        if (starValue) {
+            const gameName = new URLSearchParams(window.location.search).get('game');
+            if (gameName) {
+                try {
+                    const response = await fetch('/api/rateGame', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ gameName, rating: parseInt(starValue, 10) })
+                    });
+
+                    if (response.ok) {
+                        console.log('Rating submitted');
+                        // Optionally, update the rating display
+                        fetchGameDataAndRatings();
+                    } else {
+                        const data = await response.json();
+                        console.error('Error submitting rating:', data.message);
+                    }
+                } catch (error) {
+                    console.error('Error submitting rating:', error);
+                }
+            }
+        }
+    }
+
+    // Initialize the star rating
+    function initializeStarRating() {
+        const stars = document.querySelectorAll('#starRating .star');
+        stars.forEach(star => {
+            star.addEventListener('click', handleStarClick);
+        });
+    }
+
+    // Call the function when the page loads
+    window.onload = () => {
+        fetchGameDataAndRatings();
+        initializeStarRating();
+    };
 
     // Function to toggle fullscreen mode
     function toggleFullScreen() {
@@ -97,6 +184,6 @@
     function goHome() {
         window.location.href = '/';
     }
-</script>
+  </script>
 </body>
 </html>

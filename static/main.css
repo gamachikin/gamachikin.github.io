@@ -280,3 +280,30 @@ input[type=text] {
         .shuffle-button:hover {
       transform: scale(1.4); /* Scale up the button slightly on hover */
     }
+    .GameRating {
+      background-color: rgba(0, 0, 0, 0.17);
+      margin: 15px 30px;
+      border-radius: 25px;
+      padding: 2px 0 2px 0;
+    }
+    /* Add your star rating CSS here */
+    .starRating {
+        gap: 5px;
+        cursor: pointer;
+    }
+    
+    .star {
+        font-size: 30px;
+        cursor: pointer;
+        color: #d3d3d3; /* Light gray color for inactive stars */
+    }
+
+    .star.active,
+    .star.highlighted {
+        color: #f39c12; /* Gold color for active stars */
+    }
+
+    /* Optional: Hover effect for stars */
+    .star:hover {
+        color: #f39c12;
+    }
