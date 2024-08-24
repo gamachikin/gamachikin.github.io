@@ -96,5 +96,36 @@
         window.location.href = '/';
     }
 </script>
+<script>
+  document.addEventListener('keydown', function(event) {
+    // Check if the user is typing "Garfield"
+    let typed = '';
+    document.addEventListener('keydown', function(e) {
+      // Record the typed keys
+      typed += e.key;
+      if (typed.endsWith('garfield')) {
+        // Change the background image
+        document.body.style.backgroundImage = "url(/assets/icons/Garfield.jpg)";
+  
+        // Function to replace text with "Garfield"
+        function replaceText(element) {
+          const n = element.childNodes;
+          for (let i = 0; i < n.length; i++) {
+            replaceText(n[i]); // Recursively call for child nodes
+            if (n[i].nodeType === Node.TEXT_NODE && n[i].nodeValue.trim() !== '') {
+              n[i].textContent = 'Garfield'; // Replace text with "Garfield"
+            }
+          }
+        }
+  
+        // Start replacing text with "Garfield"
+        replaceText(document.body);
+  
+        // Stop listening for further key events
+        document.removeEventListener('keydown', arguments.callee);
+      }
+    });
+  });
+  </script>
 </body>
 </html>
