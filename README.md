@@ -1,6 +1,6 @@
 <div align = center>
 
-<img width = 300 src = static/G&S%20nav.png>
+<img width = 300 src = static/GamesAndStuffLogo.png>
 
 # Games And Stuff
 One of the coolest game websites you will ever see. This has pretty cool themes, a bunch of games, a chat room, and a lot more.
