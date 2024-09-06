@@ -22,50 +22,34 @@
       <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 0 15px 15px 0;"><a selected href="/settings">Settings</a></div>
     </div>
   </nav>
-  <div style="padding-top: 115px">
-    <div class="GameContainer">
-      <div class="FrameContainer">
-        <iframe allowfullscreen="true" frameborder="0" id="frame" src="https://organizations.minnit.chat/673740129165052/c/Main?embed&nickname="></iframe>
-      </div>
-     <div id="GameInfo" class="GameInfo">
-       <div class="GameTitle" id="GameTitle">Chat Room</div>
-         <div class="GameImageContainer">
-           <img id="GameImage" alt="game image" src="/assets/icons/ChatRoom.png">
-          </div>
-        <div class="GameDescription" id="GameDescription">This is the offical Games And Stuff chat room. You can ask questions, see new site updates coming out, and chat with whoever you would like.</div>
-        <div class="GameButtons">
-          <button onclick="toggleFullScreen()">Fullscreen</button>
-          <button onclick="reloadPage()">Reload</button>
-          <button onclick="goHome()">Home</button>
-        </div>
-    </div>
-    </div>
-   </div>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
   
-  </div>
+    .centered-text {
+      position: relative;
+      top: -100px; /* initial position */
+      opacity: 0; /* initially hidden */
+      transition: top 0.5s ease, opacity 0.5s ease; /* transition effect */
+    }
+  
+    .centered-text.show {
+      top: 0; /* final position */
+      opacity: 1; /* show */
+    }
+  </style>
+  </head>
+  <body>
+    <div class="centered-text">
+      <h1 style="text-align: center;">"The chat has been terminated by me until I can find a better one that actually works" - gamachikin</h1>
+    </div>
   <script src="/index.js"></script>
-  <script>
-
-    // Function to toggle fullscreen mode
-    function toggleFullScreen() {
-        const iframe = document.getElementById('frame');
-        if (!document.fullscreenElement) {
-            iframe.requestFullscreen();
-        } else {
-            document.exitFullscreen();
-        }
-    }
-
-    // Function to reload the page
-    function reloadPage() {
-        location.reload();
-    }
-
-    // Function to navigate back to the home page
-    function goHome() {
-        window.location.href = '/';
-    }
-</script>
 <script>
   document.addEventListener('keydown', function(event) {
     // Check if the user is typing "Garfield"
@@ -96,6 +80,14 @@
       }
     });
   });
+  </script>
+  <script>
+    // JavaScript to trigger animation when page is loaded
+    document.addEventListener('DOMContentLoaded', function() {
+      var textElement = document.querySelector('.centered-text');
+      // Add 'show' class to trigger animation
+      textElement.classList.add('show');
+    });
   </script>
 </body>
 </html>
