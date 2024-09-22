@@ -13,5 +13,13 @@
          "Moved links on homepage to footer",
          "Changed Google Forms to Discord"
       ]
-    }
+    },
+    {
+        "version": "1.30.01",
+        "date": "2024-09-22",
+        "changes": [
+           "ya so gamachikin messed up some code again...",
+           "...and fixed it"
+        ]
+      }
   ]
