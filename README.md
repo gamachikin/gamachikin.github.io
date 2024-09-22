@@ -12,4 +12,4 @@ One of the coolest game websites you will ever see. This has pretty cool themes,
 </div>
 
 > [!CAUTION]
-> If you do want to have the rating system, you will need to set up a Firebase in which you need to create an app and get your **FIREBASE_PROJECT_ID**, **FIREBASE_PRIVATE_KEY**, and **FIREBASE_CLIENT_EMAIL**. If you are deploying locally, you will want to make a .env file with these things. For deploying to the cloud, just put these in when you find something that says **Environment Variables**.
+> **THIS IS VERY IMPORTANT!** You will need to set up a Firebase in which you need to create an app and get your **FIREBASE_PROJECT_ID**, **FIREBASE_PRIVATE_KEY**, and **FIREBASE_CLIENT_EMAIL** or else if you are in Vercel, it will just crash. If you are deploying locally, you will want to make a .env file with these things. For deploying to the cloud, just put these in when you find something that says **Environment Variables**.

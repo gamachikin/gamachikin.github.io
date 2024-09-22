@@ -36,7 +36,8 @@ const routes = [
   { path: '/games', file: 'games.html' },
   { path: '/chat', file: 'chat.html' },
   { path: '/settings', file: 'settings.html' },
-  { path: '/canvas', file: 'canvas.html' },
+  { path: '/info', file: 'info.html' },
+  { path: '/changelog', file: 'changelog.html' },
 ];
 
 // Serve static files

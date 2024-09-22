@@ -249,7 +249,6 @@ input[type=text] {
     }
 
     .version {
-      margin-right: 10px;
       color: var(--text-color);
     }
 
@@ -307,3 +306,233 @@ input[type=text] {
     .star:hover {
         color: #f39c12;
     }
+    .navitems {
+      border-radius: 15px;
+      background-color: rgba(0, 0, 0, 0.17);
+    }
+
+#search-bar {
+  font-size: 16px;
+  margin: 150px 8px 20px 8px;
+  background-color: rgba(0, 0, 0, 0.17);
+  color: var(--text-color);
+  border: none;
+  box-shadow: none;
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  padding: 12px;
+  border-radius: 15px;
+}
+
+#results-container {
+  max-height: 500px;
+  overflow-y: auto;
+  border: none;
+  border-radius: 10px;
+  margin: 8px 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}
+
+.search-result {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.17);
+  color: var(--text-color);
+  border-radius: 0;
+  border: none; 
+}
+
+.search-result:first-child {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.search-result:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.search-result + .search-result {
+  border-top: none;
+}
+
+.search-result img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.search-result .name {
+  flex: 1;
+  text-align: center;
+}
+
+.identifier {
+  margin-left: auto;
+  padding-left: 10px;
+}
+
+#results-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+#results-container::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.17);
+  border-radius: 5px;
+}
+::placeholder {
+  color: var(--text-color);
+}
+
+.header-img {
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  display: block;
+  margin: 140px auto 30px auto;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.17);
+}
+
+
+.title-version {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.17);
+  border-radius: 20px;
+}
+
+
+.heading {
+  border-bottom: 2px solid #FFF;
+  padding-bottom: 10px;
+  display: inline-block;
+  width: 500px;
+}
+.credits-img {
+  max-width: 45%;
+  height: auto;
+  display: block;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.credits-container {
+  display: flex;
+  flex-direction: column; 
+  padding: 10px;
+  border-radius: 20px;
+  max-width: 800px;
+  margin: 20px auto;     
+  align-items: center;    
+}
+
+.people-credits {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;   
+  margin-bottom: 20px;  
+  text-align: center; 
+  background: rgba(0, 0, 0, 0.17);
+  border-radius: 50px;   
+  padding: 20px;  
+}
+.changelog-entry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.17);
+  border-radius: 30px;
+  padding: 20px;
+  width: 150%;
+}
+.changelog-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 20px auto;
+  align-items: center;
+}
+.changelog-heading {
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 200px;
+  font-size: 50px;
+  border-bottom: 2px solid var(--text-color);
+  padding-bottom: 10px;
+  display: inline-block;
+  width: 500px;
+}
+.version {
+  font-size: 50px;
+}
+.date {
+  font-size: 25px;
+}
+  
+.footer-links a {
+  color: var(--text-color);
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  overflow-y: auto;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.17);
+  padding: 10px;
+  text-align: center;
+  margin-top: auto;
+  width: 100%;
+}
+
+.siteinfos {
+  background-color: rgba(0, 0, 0, 0.17);
+  border-radius: 15px;
+  padding: 2px 0;
+  vertical-align: middle;
+}
+
+.search-box {
+  width: 100%;
+  position: relative;
+  display: block;
+}
+
+.mainNAVimage {
+  width: 100%;
+}

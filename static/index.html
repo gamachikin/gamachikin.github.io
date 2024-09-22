@@ -2,95 +2,98 @@
 <html lang="en">
   <head>
     <meta name="google-site-verification" content="LGeFxzKuMVDKKuK2MxPnlK_lX623SztjZ3iTnDh8O3w" />
-        <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link
-      rel="shortcut icon"
-      href="GamesAndStuffLogo.png"
-      type="image/png"
-    />
-                <title>Games & Stuff</title>
-                    <link rel="stylesheet" href="style.css">
-                        <link href='https://fonts.googleapis.com/css?family=Lato:wght@700' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1024">
+    <link rel="shortcut icon" href="GamesAndStuffLogo.png" type="image/png" />
+    <title>Games & Stuff</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
   </head>
-  <body style="overflow: hidden;">
-    <style>
-      body {
-          margin: 0;
-          overflow: hidden;
-      }
-      canvas {
-          display: block;
-      }
-  </style>
-          <nav>
-                  <p id="time"></p>
-                  
-                        <div class="navitems" style="background-color: rgba(0, 0, 0, 0.17); border-radius: 15px">
-                                          <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 15px 0 0 15px;"><a href="/games">Games</a></div>
-                                          <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 0 15px 15px 0;"><a href="/apps">Apps</a></div>
-                                          <a href="/" class="mainNAVimage-container">
-                                            <img src="GamesAndStuffLogo.png" class="mainNAVimage">
-                                          </a>                                                                                                                 
-                                          <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 15px 0 0 15px;"><a href="/chat">Chat</a></div>
-                                          <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 0 15px 15px 0;"><a href="/settings">Settings</a></div>
-                        </div>
-                      </nav>
-    <div class="version-container">
-    <p class="version">v1.20.3</p>
-    <a href="https://github.com/gamachikin/GamesAndStuff" class="link">GitHub</a>
-    <a href="https://forms.gle/mVmZuknUPVZ1QCE87" class="link">Game Request</a>
-    <a href="https://forms.gle/AoNPwbD4TRuswtL6A" class="link">App Request</a>
-    <a href="https://forms.gle/p2wY7XWG45CauPRi8" class="link">Feature Request</a>
-    <a href="https://games-and-stuff-proxy.koyeb.app/" class="link">Proxy Version</a>
-  </div>
-                     <div class="siteinfos" style="background-color: rgba(0, 0, 0, 0.17); border-radius: 15px; vertical-align: middle; padding: 2px 0;">
-                        <h1>Welcome To Games & Stuff</h1>
-                        <p>Games And Stuff is a vibrant website featuring a variety of engaging games, an interactive drawing canvas, and a lively chat room, all refreshed with exciting new content.</p>
-                       </div>                      
-                        <div class="credits" style="background-color: rgba(0, 0, 0, 0.17); border-radius: 15px; padding: 1px 0; vertical-align: middle;">
-                          <h1>Credits</h1>
-                          <p>Thanks to: gamachikin: creator - designer - most code, ChileanBash: game adding - Javascript, and you for using this site!</p>
-                       </div>
-       <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
-    new Crate({
-        server: '1191829882334875770', // Games & Stuff
-        channel: '1191829882859180135' // #general
-    })
-</script>
-<script>
-  document.addEventListener('keydown', function(event) {
-    // Check if the user is typing "Garfield"
-    let typed = '';
-    document.addEventListener('keydown', function(e) {
-      // Record the typed keys
-      typed += e.key;
-      if (typed.endsWith('garfield')) {
-        // Change the background image
-        document.body.style.backgroundImage = "url(/assets/icons/Garfield.jpg)";
-  
-        // Function to replace text with "Garfield"
-        function replaceText(element) {
-          const n = element.childNodes;
-          for (let i = 0; i < n.length; i++) {
-            replaceText(n[i]); // Recursively call for child nodes
-            if (n[i].nodeType === Node.TEXT_NODE && n[i].nodeValue.trim() !== '') {
-              n[i].textContent = 'Garfield'; // Replace text with "Garfield"
+  <body>
+    <nav>
+    <div class="navitems visible" style="background-color: rgba(0, 0, 0, 0.17); border-radius: 15px">
+      <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2);border-radius: 15px 0px 0px 15px; width: 160px;"><a href="/changelog">Changelog</a></div>
+      <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2);"><a href="/games">Games</a></div>
+      <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 0 15px 15px 0;"><a href="/apps">Apps</a></div>
+      <a href="/" class="mainNAVimage-container">
+        <img src="GamesAndStuffLogo.png" class="mainNAVimage">
+      </a>                                                                                                                 
+      <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 15px 0 0 15px;"><a href="/chat">Chat</a></div>
+      <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2);"><a href="/settings">Settings</a></div>
+     <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2);border-radius: 0px 15px 15px 0px;"><a href="/info">Info</a></div>
+    </div>
+  </nav>
+    <div class="siteinfos">
+      <h1>Welcome To Games &amp; Stuff</h1>
+      <p>Games And Stuff is a vibrant website featuring a variety of engaging games, an interactive drawing canvas, and a lively chat room, all refreshed with exciting new content.</p>
+    </div>
+    <div class="search-box">
+      <input type="text" id="search-bar" placeholder="Search for games or apps..." data-listener-added_18101588="true">
+      <div id="results-container"></div>
+    </div>
+    <script>
+      document.addEventListener('keydown', function(event) {
+        let typedGarfield = '';
+        let typedFred = '';
+        let fredCount = 0;
+
+        function handleGarfieldTyping(e) {
+          typedGarfield += e.key;
+          if (typedGarfield.endsWith('garfield')) {
+            document.body.style.backgroundImage = "url(/assets/icons/Garfield.jpg)";
+            function replaceText(element) {
+              const n = element.childNodes;
+              for (let i = 0; i < n.length; i++) {
+                replaceText(n[i]);
+                if (n[i].nodeType === Node.TEXT_NODE && n[i].nodeValue.trim() !== '') {
+                  n[i].textContent = 'Garfield';
+                }
+              }
+            }
+            replaceText(document.body);
+            document.removeEventListener('keydown', handleGarfieldTyping);
+          }
+        }
+
+        function handleFredTyping(e) {
+          typedFred += e.key;
+          if (typedFred.endsWith('fred')) {
+            fredCount++;
+            typedFred = '';
+            if (fredCount === 3) {
+              document.body.style.backgroundImage = "url(/assets/icons/Fred.jpg)";
+              function replaceTextWithFred(element) {
+                const n = element.childNodes;
+                for (let i = 0; i < n.length; i++) {
+                  replaceTextWithFred(n[i]);
+                  if (n[i].nodeType === Node.TEXT_NODE && n[i].nodeValue.trim() !== '') {
+                    n[i].textContent = 'Fred';
+                  }
+                }
+              }
+              replaceTextWithFred(document.body);
+              document.removeEventListener('keydown', handleFredTyping);
             }
           }
         }
-  
-        // Start replacing text with "Garfield"
-        replaceText(document.body);
-  
-        // Stop listening for further key events
-        document.removeEventListener('keydown', arguments.callee);
-      }
-    });
-  });
-  </script>
-<canvas id="particleCanvas"></canvas>
-<script src="/particles.js"></script>
-</body>
-<script src="/index.js"></script>
+
+        document.addEventListener('keydown', handleGarfieldTyping);
+        document.addEventListener('keydown', handleFredTyping);
+      });
+    </script>
+    <canvas id="particleCanvas"></canvas>
+    <script src="/particles.js"></script>
+    <script src="search.js"></script>
+    <script src="/index.js"></script>
+    <footer>
+      <div class="footer-links">
+        <a href="/" target="_blank">Games & Stuff</a> •
+        <a href="https://discord.gg/3FQXF8AM5z" target="_blank">Discord</a> •
+        <a href="https://github.com/gamachikin/GamesAndStuff" target="_blank">GitHub</a> •
+        <a href="https://games-and-stuff-proxy.koyeb.app/" target="_blank">Proxy Site</a>
+      </div>
+    </footer>
+  </body>
 </html>

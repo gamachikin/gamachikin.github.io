@@ -1,0 +1,17 @@
+[
+    {
+      "version": "1.30",
+      "date": "2024-09-22",
+      "changes": [
+         "New font: Montserrat",
+         "Added changelog",
+         "Added Info",
+         "Added search bar on homepage",
+         "Retired the Padlet",
+         "Minor UI changes",
+         "Now displays a footer at the bottom of every page (except game and app pages)",
+         "Moved links on homepage to footer",
+         "Changed Google Forms to Discord"
+      ]
+    }
+  ]

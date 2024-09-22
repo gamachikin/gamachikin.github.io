@@ -1,5 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Find and remove the canvas with ID 'particleCanvas'
+    const existingCanvas = document.getElementById('particleCanvas');
+    if (existingCanvas) {
+        existingCanvas.remove();
+    }
+
     const canvas = document.createElement('canvas');
+    canvas.id = 'particleCanvas'; // Set ID for the new canvas
     document.body.appendChild(canvas); // Append canvas to the body
 
     const ctx = canvas.getContext('2d');

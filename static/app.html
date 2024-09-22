@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="GamesAndStuffLogo.png" type="image/png">
-  <title>Games & Stuff</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="preload.css">
-  <link href='https://fonts.googleapis.com/css?family=Lato:wght@700' rel='stylesheet' type='text/css'>
-</head>
-<body style="overflow: hidden;">
-  <nav>
-    <p id="time"></p>
-    <div class="navitems" style="background-color: rgba(0, 0, 0, 0.17); border-radius: 15px">
-      <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 15px 0 0 15px;"><a href="/games">Games</a></div>
-      <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 0 15px 15px 0;"><a href="/apps">Apps</a></div>
-      <a href="/" class="mainNAVimage-container">
-        <img src="GamesAndStuffLogo.png" class="mainNAVimage">
-      </a>
-      <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 15px 0 0 15px;"><a href="/chat">Chat</a></div>
-      <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 0 15px 15px 0;"><a selected href="/settings">Settings</a></div>
-    </div>
-  </nav>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1024">
+    <link rel="shortcut icon" href="GamesAndStuffLogo.png" type="image/png" />
+    <title>Games & Stuff</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+        <div class="navitems visible" style="background-color: rgba(0, 0, 0, 0.17); border-radius: 15px">
+          <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2);border-radius: 15px 0px 0px 15px; width: 160px;"><a href="/changelog">Changelog</a></div>
+          <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2);"><a href="/games">Games</a></div>
+          <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 0 15px 15px 0;"><a href="/apps">Apps</a></div>
+          <a href="/" class="mainNAVimage-container">
+            <img src="GamesAndStuffLogo.png" class="mainNAVimage">
+          </a>                                                                                                                 
+          <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 15px 0 0 15px;"><a href="/chat">Chat</a></div>
+          <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2);"><a href="/settings">Settings</a></div>
+         <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2);border-radius: 0px 15px 15px 0px;"><a href="/info">Info</a></div>
+        </div>
+      </nav>
   <div style="padding-top: 115px; overflow: hidden;">
     <div class="GameContainer">
       <div class="FrameContainer">
@@ -127,5 +129,13 @@
     });
   });
   </script>
+      <footer>
+        <div class="footer-links">
+          <a href="/" target="_blank">Games & Stuff</a> •
+          <a href="https://discord.gg/3FQXF8AM5z" target="_blank">Discord</a> •
+          <a href="https://github.com/gamachikin/GamesAndStuff" target="_blank">GitHub</a> •
+          <a href="https://games-and-stuff-proxy.koyeb.app/" target="_blank">Proxy Site</a>
+        </div>
+      </footer>
 </body>
 </html>

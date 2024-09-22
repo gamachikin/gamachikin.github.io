@@ -3,7 +3,9 @@
 @import url(main.css);
 
 body {
-      font-size: large;
-          font-family: 'lato';
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
               
 }
