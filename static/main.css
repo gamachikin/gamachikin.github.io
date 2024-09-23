@@ -330,7 +330,7 @@ input[type=text] {
   overflow-y: auto;
   border: none;
   border-radius: 10px;
-  margin: 8px 0;
+  margin: 8px;
   padding: 0;
   position: absolute;
   width: 100%;
@@ -525,6 +525,7 @@ footer {
   border-radius: 15px;
   padding: 2px 0;
   vertical-align: middle;
+  margin: 0px 8px;
 }
 
 .search-box {
@@ -535,4 +536,7 @@ footer {
 
 .mainNAVimage {
   width: 100%;
+}
+::placeholder {
+  color: gray;
 }
