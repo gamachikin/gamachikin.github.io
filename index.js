@@ -1,119 +1,75 @@
-import express from 'express';
-import path from 'node:path';
-import cors from 'cors';
-import dotenv from 'dotenv';
-import admin from 'firebase-admin';
-
-// Load environment variables from .env file for local development
-dotenv.config();
-
-const app = express();
-const PORT = process.env.PORT || 8080;
-
-// Initialize Firebase Admin
-if (process.env.FIREBASE_PROJECT_ID && process.env.FIREBASE_PRIVATE_KEY && process.env.FIREBASE_CLIENT_EMAIL) {
-  admin.initializeApp({
-    credential: admin.credential.cert({
-      projectId: process.env.FIREBASE_PROJECT_ID,
-      privateKey: process.env.FIREBASE_PRIVATE_KEY.replace(/\\n/g, '\n'),
-      clientEmail: process.env.FIREBASE_CLIENT_EMAIL
-    })
-  });
+const setObj = function (key, obj) {
+    localStorage.setItem(key, JSON.stringify(obj))
+}
+const getObj = function (key) {
+    return JSON.parse(localStorage.getItem(key))
 }
 
-const db = admin ? admin.firestore() : null;
+if (localStorage.getItem("theme")) {
+    document.body.setAttribute("theme", localStorage.getItem("theme"))
+} else {
+    document.body.setAttribute("theme", "main")
+}
 
-// Middleware
-app.use(cors());
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-app.use(express.static(path.join(process.cwd(), 'static')));
+if (localStorage.getItem("theme")) {
+    document.body.setAttribute("theme", localStorage.getItem("theme"))
+}
+console.log(localStorage.getItem("theme"))
 
-// Basic routes
-const routes = [
-  { path: '/', file: 'index.html' },
-  { path: '/apps', file: 'apps.html' },
-  { path: '/games', file: 'games.html' },
-  { path: '/chat', file: 'chat.html' },
-  { path: '/settings', file: 'settings.html' },
-  { path: '/info', file: 'info.html' },
-  { path: '/changelog', file: 'changelog.html' },
-];
+// Function to change the tab title
+function changeTabTitle(newTitle) {
+    document.title = newTitle;  // Change the title of the current tab
+    localStorage.setItem('tabTitle', newTitle);  // Store the tab title in local storage
+}
 
-// Serve static files
-routes.forEach((route) => {
-  app.get(route.path, (req, res) => {
-    res.sendFile(path.join(process.cwd(), 'static', route.file));
-  });
-});
-
-// Rating submission endpoint
-app.post('/api/rateGame', async (req, res) => {
-  if (!db) {
-    return res.status(500).json({ message: 'Database not initialized' });
-  }
-
-  const { gameName, rating } = req.body;
-
-  if (!gameName || !rating || rating < 1 || rating > 5) {
-    return res.status(400).json({ message: 'Invalid request' });
-  }
-
-  try {
-    const gameRef = db.collection('games').doc(gameName);
-    const gameDoc = await gameRef.get();
-
-    if (!gameDoc.exists) {
-      await gameRef.set({ totalRating: rating, numberOfRatings: 1 });
-    } else {
-      const gameData = gameDoc.data();
-      const newTotalRating = gameData.totalRating + rating;
-      const newNumberOfRatings = gameData.numberOfRatings + 1;
-      await gameRef.update({ totalRating: newTotalRating, numberOfRatings: newNumberOfRatings });
+// Function to change the favicon
+function changeFavicon(faviconUrl) {
+    var favicon = document.querySelector('link[rel="shortcut icon"]');
+    if (favicon) {
+        favicon.href = faviconUrl;  // Change the favicon of the current tab
+        localStorage.setItem('faviconUrl', faviconUrl);  // Store the favicon URL in local storage
     }
+}
 
-    res.status(200).json({ message: 'Rating submitted' });
-  } catch (error) {
-    console.error('Error updating rating:', error);
-    res.status(500).json({ message: 'Internal server error' });
-  }
-});
-
-// Rating statistics endpoint
-app.get('/api/getGameRating/:gameName', async (req, res) => {
-  const { gameName } = req.params;
-
-  if (!gameName) {
-    return res.status(400).json({ message: 'Invalid request' });
-  }
-
-  try {
-    const gameRef = db.collection('games').doc(gameName);
-    const gameDoc = await gameRef.get();
-
-    if (!gameDoc.exists) {
-      return res.status(404).json({ message: 'Game not found' });
+// Check if there are stored values for tab title and favicon and apply them
+window.onload = function() {
+    var storedTitle = localStorage.getItem('tabTitle');
+    var storedFaviconUrl = localStorage.getItem('faviconUrl');
+    
+    if (storedTitle) {
+        changeTabTitle(storedTitle);
     }
+    
+    if (storedFaviconUrl) {
+        changeFavicon(storedFaviconUrl);
+    }
+};
 
-    const gameData = gameDoc.data();
-    const averageRating = gameData.totalRating / gameData.numberOfRatings;
+// Function to change the tab title
+function changeTabTitle(newTitle) {
+    document.title = newTitle;  // Change the title of the current tab
+    localStorage.setItem('tabTitle', newTitle);  // Store the tab title in local storage
+}
 
-    res.status(200).json({
-      numberOfRatings: gameData.numberOfRatings,
-      averageRating: averageRating.toFixed(1)  // Round to 1 decimal place
-    });
-  } catch (error) {
-    console.error('Error retrieving rating statistics:', error);
-    res.status(500).json({ message: 'Internal server error' });
-  }
-});
+// Function to change the favicon
+function changeFavicon(faviconUrl) {
+    var favicon = document.querySelector('link[rel="shortcut icon"]');
+    if (favicon) {
+        favicon.href = faviconUrl;  // Change the favicon of the current tab
+        localStorage.setItem('faviconUrl', faviconUrl);  // Store the favicon URL in local storage
+    }
+}
 
-// Middleware to handle 404 errors
-app.use((req, res) => {
-  res.status(404).sendFile(path.join(process.cwd(), 'static', '404.html'));
-});
-
-// Start the server
-app.listen(PORT, () => {
-  console.log(`Server is running at http://localhost:${PORT}`);
-});
+// Check if there are stored values for tab title and favicon and apply them
+window.onload = function() {
+    var storedTitle = localStorage.getItem('tabTitle');
+    var storedFaviconUrl = localStorage.getItem('faviconUrl');
+    
+    if (storedTitle) {
+        changeTabTitle(storedTitle);
+    }
+    
+    if (storedFaviconUrl) {
+        changeFavicon(storedFaviconUrl);
+    }
+};
